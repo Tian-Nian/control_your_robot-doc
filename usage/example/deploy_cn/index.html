@@ -837,15 +837,6 @@
   
 </li>
       
-        <li class="md-nav__item">
-  <a href="#deploy_1" class="md-nav__link">
-    <span class="md-ellipsis">
-      deploy
-    </span>
-  </a>
-  
-</li>
-      
     </ul>
   
 </nav>
@@ -998,15 +989,6 @@
   
 </li>
       
-        <li class="md-nav__item">
-  <a href="#deploy_1" class="md-nav__link">
-    <span class="md-ellipsis">
-      deploy
-    </span>
-  </a>
-  
-</li>
-      
     </ul>
   
 </nav>
@@ -1027,9 +1009,13 @@
 <h2 id="deploy">deploy介绍</h2>
 <p><code>deploy</code>中提供了两种部署模式:</p>
 <h3 id="_2">实现自己模型的部署脚本</h3>
-<p>可以参考多个robot_on_model.py脚本, </p>
+<p>可以参考多个robot_on_model.py脚本, 主要不同点在于模型初始化与用于将数据转化为模型推理数据的<code>input_transform()</code>函数. </p>
+<p>对于你的模型,应当在policy/your_model/路径下有<code>inference_model.py</code>文件, 该文件拥有你的模型的封装类, 并且拥有:
+- <code>update_observation_window()</code>: 用于管理模型的输入参数, 由于部分模型需要前文信息, 因此需要用滑动窗口管理数据.
+— <code>get_action()</code>: 根据当前的滑动窗口数据进行推理, 获取动作序列.
+- <code>reset_obsrvationwindows()</code>: 重置滑动窗口, 用于开启新一轮推理.</p>
+<p>如果你模型需要其他的信息, 直接在<code>input_transform()</code>中添加对应传感器的返回值, 并转化为模型</p>
 <h3 id="_3">使用通用部署脚本</h3>
-<h2 id="deploy_1">deploy</h2>
 
 
 

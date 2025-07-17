@@ -4,7 +4,8 @@ theme:
   language: en
 
 plugins:
-  - search
+  - search:
+      separator: '[\s\u200b\-]'
   - i18n:
       default_language: en
       languages:

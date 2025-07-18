@@ -85,6 +85,12 @@
         <xhtml:link rel="alternate" hreflang="zh" href="Noneusage/example/deploy_cn/"/>
     </url>
     <url>
+        <loc>Noneusage/my_robot/base_robot_cn/</loc>
+        <lastmod>2025-07-18</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="Noneusage/my_robot/base_robot_cn/"/>
+    </url>
+    <url>
         <loc>Noneusage/my_robot/robot_cn/</loc>
         <lastmod>2025-07-18</lastmod>
         <changefreq>daily</changefreq>

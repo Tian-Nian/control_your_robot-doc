@@ -9,10 +9,10 @@
       
       
       
-        <link rel="prev" href="../mobile_controller_cn/">
+        <link rel="prev" href="../../sensor/teleoperation_sensor_cn/">
       
       
-        <link rel="next" href="../../sensor/sensor_cn/">
+        <link rel="next" href="../robot_cn/">
       
       
       <link rel="icon" href="../../../assets/images/favicon.png">
@@ -20,7 +20,7 @@
     
     
       
-        <title>灵巧手控制器类 - Control Your Robot</title>
+        <title>机器人基类 - Control Your Robot</title>
       
     
     
@@ -98,7 +98,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              灵巧手控制器类
+              机器人基类
             
           </span>
         </div>
@@ -468,10 +468,8 @@
                 
   
   
-    
   
   
-  
     
     
       
@@ -490,11 +488,13 @@
       
     
     
-    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_2" checked>
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_2_2" >
         
           
           <label class="md-nav__link" for="__nav_2_2" id="__nav_2_2_label" tabindex="0">
@@ -510,7 +510,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_2_label" aria-expanded="true">
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_2_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_2_2">
             <span class="md-nav__icon md-icon"></span>
             controller
@@ -524,7 +524,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../controller_cn/" class="md-nav__link">
+      <a href="../../controller/controller_cn/" class="md-nav__link">
         
   
   
@@ -547,7 +547,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../arm_controller_cn/" class="md-nav__link">
+      <a href="../../controller/arm_controller_cn/" class="md-nav__link">
         
   
   
@@ -570,7 +570,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../mobile_controller_cn/" class="md-nav__link">
+      <a href="../../controller/mobile_controller_cn/" class="md-nav__link">
         
   
   
@@ -590,32 +590,10 @@
                 
   
   
-    
   
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          
-  
-  
-  <span class="md-ellipsis">
-    灵巧手控制器类
-    
-  </span>
-  
-
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../../controller/dexhand_controller_cn/" class="md-nav__link">
         
   
   
@@ -626,212 +604,6 @@
   
 
       </a>
-      
-        
-
-<nav class="md-nav md-nav--secondary" aria-label="目录">
-  
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      目录
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#_2" class="md-nav__link">
-    <span class="md-ellipsis">
-      介绍
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#_3" class="md-nav__link">
-    <span class="md-ellipsis">
-      类定义
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#_4" class="md-nav__link">
-    <span class="md-ellipsis">
-      成员属性
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#_5" class="md-nav__link">
-    <span class="md-ellipsis">
-      函数
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="函数">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#initself" class="md-nav__link">
-    <span class="md-ellipsis">
-      init(self)
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#get_informationself-dictstr-any" class="md-nav__link">
-    <span class="md-ellipsis">
-      get_information(self) -&gt; Dict[str, Any]
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#moveself-move_data-dictstr-any-is_delta-bool-false" class="md-nav__link">
-    <span class="md-ellipsis">
-      move(self, move_data: Dict[str, Any], is_delta: bool = False)
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#reprself-str" class="md-nav__link">
-    <span class="md-ellipsis">
-      repr(self) -&gt; str
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#_6" class="md-nav__link">
-    <span class="md-ellipsis">
-      实现自己的手部控制器子类
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="实现自己的手部控制器子类">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#_7" class="md-nav__link">
-    <span class="md-ellipsis">
-      必要实现
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="必要实现">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#get_state" class="md-nav__link">
-    <span class="md-ellipsis">
-      get_state()
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#_8" class="md-nav__link">
-    <span class="md-ellipsis">
-      可选择实现
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="可选择实现">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#get_joint" class="md-nav__link">
-    <span class="md-ellipsis">
-      get_joint()
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#get_action" class="md-nav__link">
-    <span class="md-ellipsis">
-      get_action()
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#get_velocity" class="md-nav__link">
-    <span class="md-ellipsis">
-      get_velocity()
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#get_force" class="md-nav__link">
-    <span class="md-ellipsis">
-      get_force()
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#set_jointmove_data-nparray" class="md-nav__link">
-    <span class="md-ellipsis">
-      set_joint(move_data: np.array)
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#set_actionmove_data-nparray" class="md-nav__link">
-    <span class="md-ellipsis">
-      set_action(move_data: np.array)
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-      
     </li>
   
 
@@ -1002,8 +774,10 @@
                 
   
   
+    
   
   
+  
     
     
       
@@ -1018,13 +792,11 @@
       
     
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
         
         
-          
-        
-        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_2_4" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_4" checked>
         
           
           <label class="md-nav__link" for="__nav_2_4" id="__nav_2_4_label" tabindex="0">
@@ -1040,7 +812,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_4_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_4_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_2_4">
             <span class="md-nav__icon md-icon"></span>
             my_robot
@@ -1051,10 +823,32 @@
                 
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="../../my_robot/base_robot_cn/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    机器人基类
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   
@@ -1065,6 +859,218 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="目录">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      目录
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      介绍
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      类定义
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      成员属性
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_5" class="md-nav__link">
+    <span class="md-ellipsis">
+      函数
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="函数">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#initself-start_episode0" class="md-nav__link">
+    <span class="md-ellipsis">
+      init(self, start_episode=0)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#set_upself" class="md-nav__link">
+    <span class="md-ellipsis">
+      set_up(self)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#set_collect_typeself-info_names-dictstr-any" class="md-nav__link">
+    <span class="md-ellipsis">
+      set_collect_type(self, INFO_NAMES: Dict[str, Any])
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#getself-listdictstr-any" class="md-nav__link">
+    <span class="md-ellipsis">
+      get(self) -&gt; List[Dict[str, Any]]
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#collectself-data-listdictstr-any" class="md-nav__link">
+    <span class="md-ellipsis">
+      collect(self, data: List[Dict[str, Any]])
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#finishself" class="md-nav__link">
+    <span class="md-ellipsis">
+      finish(self)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#moveself-move_data-dictstr-any-key_banned-optionalliststr-none" class="md-nav__link">
+    <span class="md-ellipsis">
+      move(self, move_data: Dict[str, Any], key_banned: Optional[List[str]] = None)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#is_startself-bool" class="md-nav__link">
+    <span class="md-ellipsis">
+      is_start(self) -&gt; bool
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#resetself-bool" class="md-nav__link">
+    <span class="md-ellipsis">
+      reset(self) -&gt; bool
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#replayself-data_path-str-key_banned-optionalliststr-none" class="md-nav__link">
+    <span class="md-ellipsis">
+      replay(self, data_path: str, key_banned: Optional[List[str]] = None)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#play_onceself-episode-dictstr-any-key_banned-optionalliststr-none" class="md-nav__link">
+    <span class="md-ellipsis">
+      play_once(self, episode: Dict[str, Any], key_banned: Optional[List[str]] = None)
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_6" class="md-nav__link">
+    <span class="md-ellipsis">
+      工具函数
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="工具函数">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#get_array_lengthdata-dictstr-any-int" class="md-nav__link">
+    <span class="md-ellipsis">
+      get_array_length(data: Dict[str, Any]) -&gt; int
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#split_nested_dictdata-dictstr-any-idx-int-dictstr-any" class="md-nav__link">
+    <span class="md-ellipsis">
+      split_nested_dict(data: Dict[str, Any], idx: int) -&gt; Dict[str, Any]
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#dict_to_listdata-dictstr-any-listdictstr-any" class="md-nav__link">
+    <span class="md-ellipsis">
+      dict_to_list(data: Dict[str, Any]) -&gt; List[Dict[str, Any]]
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#remove_duplicate_keyssource_dict-dictstr-any-keys_to_remove-liststr-dictstr-any" class="md-nav__link">
+    <span class="md-ellipsis">
+      remove_duplicate_keys(source_dict: dict[str, Any], keys_to_remove: list[str]) -&gt; dict[str, Any]
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -1077,7 +1083,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../my_robot/robot_cn/" class="md-nav__link">
+      <a href="../robot_cn/" class="md-nav__link">
         
   
   
@@ -1430,36 +1436,99 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#initself" class="md-nav__link">
+  <a href="#initself-start_episode0" class="md-nav__link">
     <span class="md-ellipsis">
-      init(self)
+      init(self, start_episode=0)
     </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#get_informationself-dictstr-any" class="md-nav__link">
+  <a href="#set_upself" class="md-nav__link">
     <span class="md-ellipsis">
-      get_information(self) -&gt; Dict[str, Any]
+      set_up(self)
     </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#moveself-move_data-dictstr-any-is_delta-bool-false" class="md-nav__link">
+  <a href="#set_collect_typeself-info_names-dictstr-any" class="md-nav__link">
     <span class="md-ellipsis">
-      move(self, move_data: Dict[str, Any], is_delta: bool = False)
+      set_collect_type(self, INFO_NAMES: Dict[str, Any])
     </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#reprself-str" class="md-nav__link">
+  <a href="#getself-listdictstr-any" class="md-nav__link">
     <span class="md-ellipsis">
-      repr(self) -&gt; str
+      get(self) -&gt; List[Dict[str, Any]]
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#collectself-data-listdictstr-any" class="md-nav__link">
+    <span class="md-ellipsis">
+      collect(self, data: List[Dict[str, Any]])
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#finishself" class="md-nav__link">
+    <span class="md-ellipsis">
+      finish(self)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#moveself-move_data-dictstr-any-key_banned-optionalliststr-none" class="md-nav__link">
+    <span class="md-ellipsis">
+      move(self, move_data: Dict[str, Any], key_banned: Optional[List[str]] = None)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#is_startself-bool" class="md-nav__link">
+    <span class="md-ellipsis">
+      is_start(self) -&gt; bool
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#resetself-bool" class="md-nav__link">
+    <span class="md-ellipsis">
+      reset(self) -&gt; bool
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#replayself-data_path-str-key_banned-optionalliststr-none" class="md-nav__link">
+    <span class="md-ellipsis">
+      replay(self, data_path: str, key_banned: Optional[List[str]] = None)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#play_onceself-episode-dictstr-any-key_banned-optionalliststr-none" class="md-nav__link">
+    <span class="md-ellipsis">
+      play_once(self, episode: Dict[str, Any], key_banned: Optional[List[str]] = None)
     </span>
   </a>
   
@@ -1473,103 +1542,46 @@
         <li class="md-nav__item">
   <a href="#_6" class="md-nav__link">
     <span class="md-ellipsis">
-      实现自己的手部控制器子类
+      工具函数
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="实现自己的手部控制器子类">
+    <nav class="md-nav" aria-label="工具函数">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#_7" class="md-nav__link">
+  <a href="#get_array_lengthdata-dictstr-any-int" class="md-nav__link">
     <span class="md-ellipsis">
-      必要实现
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="必要实现">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#get_state" class="md-nav__link">
-    <span class="md-ellipsis">
-      get_state()
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#_8" class="md-nav__link">
-    <span class="md-ellipsis">
-      可选择实现
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="可选择实现">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#get_joint" class="md-nav__link">
-    <span class="md-ellipsis">
-      get_joint()
+      get_array_length(data: Dict[str, Any]) -&gt; int
     </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#get_action" class="md-nav__link">
+  <a href="#split_nested_dictdata-dictstr-any-idx-int-dictstr-any" class="md-nav__link">
     <span class="md-ellipsis">
-      get_action()
+      split_nested_dict(data: Dict[str, Any], idx: int) -&gt; Dict[str, Any]
     </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#get_velocity" class="md-nav__link">
+  <a href="#dict_to_listdata-dictstr-any-listdictstr-any" class="md-nav__link">
     <span class="md-ellipsis">
-      get_velocity()
+      dict_to_list(data: Dict[str, Any]) -&gt; List[Dict[str, Any]]
     </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#get_force" class="md-nav__link">
+  <a href="#remove_duplicate_keyssource_dict-dictstr-any-keys_to_remove-liststr-dictstr-any" class="md-nav__link">
     <span class="md-ellipsis">
-      get_force()
+      remove_duplicate_keys(source_dict: dict[str, Any], keys_to_remove: list[str]) -&gt; dict[str, Any]
     </span>
   </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#set_jointmove_data-nparray" class="md-nav__link">
-    <span class="md-ellipsis">
-      set_joint(move_data: np.array)
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#set_actionmove_data-nparray" class="md-nav__link">
-    <span class="md-ellipsis">
-      set_action(move_data: np.array)
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
   
 </li>
         
@@ -1594,16 +1606,12 @@
 
 
 
-<h1 id="_1">🖐️ 手部控制器基类</h1>
+<h1 id="_1">机器人系统封装基类</h1>
 <h2 id="_2">介绍</h2>
-<p><code>DexHandController</code> 是 <code>Controller</code> 的子类，用于控制机器人手部（如灵巧手、夹爪）。<br />
-该类实现了手部状态获取和运动控制的方法，支持关节控制和动作控制的增量与绝对指令。</p>
-<hr />
+<p><code>Robot</code> 是用于封装多控制器与多传感器的机器人类，负责统一调度控制器与传感器的运行，并管理数据的采集、回放与控制接口。该类提供统一的调用接口，支持状态信息获取、数据记录、运动控制与回放等功能。</p>
 <h2 id="_3">类定义</h2>
-<pre><code class="language-python">class HandController:
+<pre><code class="language-python">class Robot:
 </code></pre>
-<p>继承自 <code>Controller</code> 的机器人手部控制器，实现了 <code>get_information()</code> 和 <code>move()</code> 方法。</p>
-<hr />
 <h2 id="_4">成员属性</h2>
 <table>
 <thead>
@@ -1615,131 +1623,196 @@
 </thead>
 <tbody>
 <tr>
-<td><code>controller_type</code></td>
-<td><code>str</code></td>
-<td>控制器类型，设为 <code>"robotic_hand"</code></td>
+<td>name</td>
+<td>str</td>
+<td>机器人名称，默认为 "base_robot"</td>
 </tr>
 <tr>
-<td><code>is_set_up</code></td>
-<td><code>bool</code></td>
-<td>控制器是否初始化，默认为 <code>False</code></td>
+<td>controllers</td>
+<td>Dict[str, Dict[str, Any]]</td>
+<td>控制器字典，支持多种类型与多个控制器实例</td>
 </tr>
 <tr>
-<td><code>controller</code></td>
-<td><code>Any</code></td>
-<td>外部控制器句柄，默认为 <code>None</code></td>
+<td>sensors</td>
+<td>Dict[str, Dict[str, Any]]</td>
+<td>传感器字典，支持多种类型与多个传感器实例</td>
+</tr>
+<tr>
+<td>condition</td>
+<td>Dict[str, Any]</td>
+<td>系统设定参数，如保存路径、频率等</td>
+</tr>
+<tr>
+<td>collection</td>
+<td>CollectAny</td>
+<td>数据采集器，用于缓存并保存数据</td>
 </tr>
 </tbody>
 </table>
-<hr />
 <h2 id="_5">函数</h2>
-<h3 id="initself"><strong><strong>init</strong>(self)</strong></h3>
-<p>初始化手部控制器。</p>
+<h3 id="initself-start_episode0"><strong><strong>init</strong>(self, start_episode=0)</strong></h3>
+<p>初始化 <code>Robot</code> 实例。</p>
 <ul>
-<li>参数：无  </li>
-<li>返回：无  </li>
+<li>参数：</li>
+<li><code>start_episode</code> (int): 起始 episode 编号，默认为 0</li>
+<li>返回：无</li>
 </ul>
 <hr />
-<h3 id="get_informationself-dictstr-any"><strong>get_information(self) -&gt; Dict[str, Any]</strong></h3>
-<p>获取当前手部状态信息。返回字段由 <code>self.collect_info</code> 决定。<br />
-支持字段包括：</p>
+<h3 id="set_upself"><strong>set_up(self)</strong></h3>
+<p>机器人初始化接口。该方法需在子类中重写。</p>
 <ul>
-<li><code>"joint"</code>：关节角度</li>
-<li><code>"action"</code>：执行的动作</li>
-<li><code>"velocity"</code>：速度信息</li>
-<li>
-<p><code>"force"</code>：力传感信息</p>
-</li>
-<li>
-<p>参数：无  </p>
-</li>
-<li>返回：<br />
-<code>Dict[str, Any]</code>：包含当前状态的字典，键为字段名，值为对应状态值。</li>
+<li>参数：无</li>
+<li>返回：无（默认抛出 <code>NotImplementedError</code>）</li>
 </ul>
 <hr />
-<h3 id="moveself-move_data-dictstr-any-is_delta-bool-false"><strong>move(self, move_data: Dict[str, Any], is_delta: bool = False)</strong></h3>
-<p>发送控制指令控制手部关节或动作。</p>
+<h3 id="set_collect_typeself-info_names-dictstr-any"><strong>set_collect_type(self, INFO_NAMES: Dict[str, Any])</strong></h3>
+<p>为控制器与传感器设置需要采集的信息字段。</p>
 <ul>
+<li>参数：</li>
 <li>
-<p>增量控制 (<code>is_delta=True</code>)：<br />
-<code>"joint"</code> 和 <code>"action"</code> 为在当前状态基础上的偏移量。</p>
-</li>
-<li>
-<p>绝对控制 (<code>is_delta=False</code>)：<br />
-  所有字段均表示目标状态。</p>
-</li>
-</ul>
-<p>支持字段包括：</p>
-<ul>
-<li><code>"joint"</code>：关节角度</li>
-<li>
-<p><code>"action"</code>：控制动作（策略/高维向量）</p>
-</li>
-<li>
-<p>参数：</p>
-</li>
-<li><code>move_data</code> (<code>Dict[str, Any]</code>)：控制数据，键为字段名，值为对应的目标值（推荐使用 <code>numpy.array</code>）。</li>
-<li>
-<p><code>is_delta</code> (<code>bool</code>, 可选)：是否为增量控制，默认为 <code>False</code>。</p>
+<p><code>INFO_NAMES</code> (Dict[str, Any])：每个控制器或传感器对应的采集字段名</p>
 </li>
 <li>
 <p>返回：无</p>
 </li>
 </ul>
 <hr />
-<h3 id="reprself-str"><strong><strong>repr</strong>(self) -&gt; str</strong></h3>
-<p>打印控制器当前状态。</p>
+<h3 id="getself-listdictstr-any"><strong>get(self) -&gt; List[Dict[str, Any]]</strong></h3>
+<p>从控制器与传感器中获取当前状态信息。</p>
 <ul>
-<li>参数：无  </li>
-<li>返回：<br />
-<code>str</code>：控制器状态描述字符串，包含内部 <code>controller</code> 的引用信息。</li>
+<li>参数：无</li>
+<li>返回：</li>
+<li><code>List[Dict[str, Any]]</code>：包含 <code>[controller_data, sensor_data]</code> 的列表</li>
 </ul>
 <hr />
-<h2 id="_6">实现自己的手部控制器子类</h2>
-<p>参考本基类创建自己的具体实现，需根据硬件/仿真 API 补充底层函数。</p>
-<hr />
-<h3 id="_7">必要实现</h3>
-<h4 id="get_state"><strong>get_state()</strong></h4>
-<p>用于返回当前手部所有状态信息，用于支持增量控制逻辑。</p>
+<h3 id="collectself-data-listdictstr-any"><strong>collect(self, data: List[Dict[str, Any]])</strong></h3>
+<p>采集数据并存入缓存。</p>
 <ul>
-<li>参数：无  </li>
-<li>返回：<br />
-<code>Dict[str, Any]</code>：包含所有状态信息（例如 joint, action）</li>
+<li>参数：</li>
+<li>
+<p><code>data</code> (List[Dict[str, Any]])：<code>[controller_data, sensor_data]</code> 数据对</p>
+</li>
+<li>
+<p>返回：无</p>
+</li>
 </ul>
 <hr />
-<h3 id="_8">可选择实现</h3>
-<h4 id="get_joint"><strong>get_joint()</strong></h4>
-<p>返回当前关节角度。</p>
+<h3 id="finishself"><strong>finish(self)</strong></h3>
+<p>将缓存中的数据写入文件。</p>
 <ul>
-<li>参数：无  </li>
-<li>返回：<br />
-<code>np.array</code>：关节角度数组。</li>
+<li>参数：无</li>
+<li>返回：无</li>
 </ul>
-<h4 id="get_action"><strong>get_action()</strong></h4>
-<p>返回当前手部动作状态（策略输出）。</p>
+<hr />
+<h3 id="moveself-move_data-dictstr-any-key_banned-optionalliststr-none"><strong>move(self, move_data: Dict[str, Any], key_banned: Optional[List[str]] = None)</strong></h3>
+<p>控制所有控制器运动。可指定跳过部分 key。</p>
 <ul>
-<li>参数：无  </li>
-<li>返回：<br />
-<code>np.array</code>：动作向量。</li>
+<li>参数：</li>
+<li><code>move_data</code> (Dict[str, Any])：分层控制指令（控制器类型 -&gt; 控制器名 -&gt; 控制内容）</li>
+<li>
+<p><code>key_banned</code> (List[str], 可选)：要从 move_data 中移除的字段名</p>
+</li>
+<li>
+<p>返回：无</p>
+</li>
 </ul>
-<h4 id="get_velocity"><strong>get_velocity()</strong></h4>
-<p>返回当前速度信息。</p>
+<hr />
+<h3 id="is_startself-bool"><strong>is_start(self) -&gt; bool</strong></h3>
+<p>判断是否应开始动作。默认实现永远返回 True，可在子类中重写。</p>
 <ul>
-<li>参数：无  </li>
-<li>返回：<br />
-<code>np.array</code>：速度信息。</li>
+<li>参数：无</li>
+<li>返回：</li>
+<li><code>bool</code>: 默认返回 True</li>
 </ul>
-<h4 id="get_force"><strong>get_force()</strong></h4>
-<p>返回当前施加的力信息。</p>
+<hr />
+<h3 id="resetself-bool"><strong>reset(self) -&gt; bool</strong></h3>
+<p>复位机器人状态。默认实现永远返回 True，可在子类中重写。</p>
 <ul>
-<li>参数：无  </li>
-<li>返回：<br />
-<code>np.array</code>：力信息。</li>
+<li>参数：无</li>
+<li>返回：</li>
+<li><code>bool</code>: 默认返回 True</li>
 </ul>
-<h4 id="set_jointmove_data-nparray"><strong>set_joint(move_data: np.array)</strong></h4>
-<p>设置关节角度。</p>
-<h4 id="set_actionmove_data-nparray"><strong>set_action(move_data: np.array)</strong></h4>
-<p>设置手部的策略动作向量。</p>
+<hr />
+<h3 id="replayself-data_path-str-key_banned-optionalliststr-none"><strong>replay(self, data_path: str, key_banned: Optional[List[str]] = None)</strong></h3>
+<p>读取并回放一段动作数据。</p>
+<ul>
+<li>参数：</li>
+<li><code>data_path</code> (str): <code>.hdf5</code> 数据路径</li>
+<li>
+<p><code>key_banned</code> (List[str], 可选): 控制时忽略的字段名</p>
+</li>
+<li>
+<p>返回：无</p>
+</li>
+</ul>
+<hr />
+<h3 id="play_onceself-episode-dictstr-any-key_banned-optionalliststr-none"><strong>play_once(self, episode: Dict[str, Any], key_banned: Optional[List[str]] = None)</strong></h3>
+<p>回放单帧 episode 中的动作。</p>
+<ul>
+<li>参数：</li>
+<li><code>episode</code> (Dict[str, Any])：单帧数据</li>
+<li>
+<p><code>key_banned</code> (List[str], 可选): 控制时忽略字段</p>
+</li>
+<li>
+<p>返回：无</p>
+</li>
+</ul>
+<hr />
+<h2 id="_6">工具函数</h2>
+<h3 id="get_array_lengthdata-dictstr-any-int"><strong>get_array_length(data: Dict[str, Any]) -&gt; int</strong></h3>
+<p>获取最外层 <code>np.ndarray</code> 的长度。</p>
+<ul>
+<li>参数：</li>
+<li>
+<p><code>data</code> (Dict[str, Any])：嵌套字典</p>
+</li>
+<li>
+<p>返回：</p>
+</li>
+<li><code>int</code>: 数据长度</li>
+</ul>
+<hr />
+<h3 id="split_nested_dictdata-dictstr-any-idx-int-dictstr-any"><strong>split_nested_dict(data: Dict[str, Any], idx: int) -&gt; Dict[str, Any]</strong></h3>
+<p>提取嵌套数据结构中的第 idx 帧。</p>
+<ul>
+<li>参数：</li>
+<li><code>data</code> (Dict[str, Any])：嵌套字典</li>
+<li>
+<p><code>idx</code> (int)：索引帧</p>
+</li>
+<li>
+<p>返回：</p>
+</li>
+<li><code>Dict[str, Any]</code>: 第 <code>idx</code> 帧数据</li>
+</ul>
+<hr />
+<h3 id="dict_to_listdata-dictstr-any-listdictstr-any"><strong>dict_to_list(data: Dict[str, Any]) -&gt; List[Dict[str, Any]]</strong></h3>
+<p>将嵌套字典结构转换为按帧排列的列表。</p>
+<ul>
+<li>参数：</li>
+<li>
+<p><code>data</code> (Dict[str, Any])：嵌套字典</p>
+</li>
+<li>
+<p>返回：</p>
+</li>
+<li><code>List[Dict[str, Any]]</code>: 按帧拆分的列表</li>
+</ul>
+<hr />
+<h3 id="remove_duplicate_keyssource_dict-dictstr-any-keys_to_remove-liststr-dictstr-any"><strong>remove_duplicate_keys(source_dict: dict[str, Any], keys_to_remove: list[str]) -&gt; dict[str, Any]</strong></h3>
+<p>从字典中删除指定键。</p>
+<ul>
+<li>参数：</li>
+<li><code>source_dict</code> (dict): 原始字典</li>
+<li>
+<p><code>keys_to_remove</code> (list): 要删除的 key</p>
+</li>
+<li>
+<p>返回：</p>
+</li>
+<li><code>dict</code>: 删除后的新字典</li>
+</ul>
 
 
 
@@ -1775,7 +1848,7 @@
       <nav class="md-footer__inner md-grid" aria-label="页脚" >
         
           
-          <a href="../mobile_controller_cn/" class="md-footer__link md-footer__link--prev" aria-label="上一页: 底盘控制器类">
+          <a href="../../sensor/teleoperation_sensor_cn/" class="md-footer__link md-footer__link--prev" aria-label="上一页: 遥操传感器类">
             <div class="md-footer__button md-icon">
               
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
@@ -1785,20 +1858,20 @@
                 上一页
               </span>
               <div class="md-ellipsis">
-                底盘控制器类
+                遥操传感器类
               </div>
             </div>
           </a>
         
         
           
-          <a href="../../sensor/sensor_cn/" class="md-footer__link md-footer__link--next" aria-label="下一页: 传感器类">
+          <a href="../robot_cn/" class="md-footer__link md-footer__link--next" aria-label="下一页: 自定义机器人">
             <div class="md-footer__title">
               <span class="md-footer__direction">
                 下一页
               </span>
               <div class="md-ellipsis">
-                传感器类
+                自定义机器人
               </div>
             </div>
             <div class="md-footer__button md-icon">

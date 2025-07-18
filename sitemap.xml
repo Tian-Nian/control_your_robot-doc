@@ -2,121 +2,139 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
     <url>
         <loc>None./</loc>
-        <lastmod>2025-07-17</lastmod>
+        <lastmod>2025-07-18</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="zh" href="None"/>
     </url>
     <url>
         <loc>Noneindex_cn/</loc>
-        <lastmod>2025-07-17</lastmod>
+        <lastmod>2025-07-18</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="zh" href="Noneindex_cn/"/>
     </url>
     <url>
+        <loc>Nonedemo/collect_demo_cn/</loc>
+        <lastmod>2025-07-18</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="Nonedemo/collect_demo_cn/"/>
+    </url>
+    <url>
         <loc>Nonegetting_started/installation/</loc>
-        <lastmod>2025-07-17</lastmod>
+        <lastmod>2025-07-18</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="zh" href="Nonegetting_started/installation/"/>
     </url>
     <url>
         <loc>Nonegetting_started/installation_cn/</loc>
-        <lastmod>2025-07-17</lastmod>
+        <lastmod>2025-07-18</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="zh" href="Nonegetting_started/installation_cn/"/>
     </url>
     <url>
         <loc>Nonegetting_started/quickstart/</loc>
-        <lastmod>2025-07-17</lastmod>
+        <lastmod>2025-07-18</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="zh" href="Nonegetting_started/quickstart/"/>
     </url>
     <url>
         <loc>Nonegetting_started/quickstart_cn/</loc>
-        <lastmod>2025-07-17</lastmod>
+        <lastmod>2025-07-18</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="zh" href="Nonegetting_started/quickstart_cn/"/>
     </url>
     <url>
+        <loc>Noneusage/start/</loc>
+        <lastmod>2025-07-18</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="Noneusage/start/"/>
+    </url>
+    <url>
         <loc>Noneusage/controller/arm_controller_cn/</loc>
-        <lastmod>2025-07-17</lastmod>
+        <lastmod>2025-07-18</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="zh" href="Noneusage/controller/arm_controller_cn/"/>
     </url>
     <url>
         <loc>Noneusage/controller/controller_cn/</loc>
-        <lastmod>2025-07-17</lastmod>
+        <lastmod>2025-07-18</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="zh" href="Noneusage/controller/controller_cn/"/>
     </url>
     <url>
         <loc>Noneusage/controller/dexhand_controller_cn/</loc>
-        <lastmod>2025-07-17</lastmod>
+        <lastmod>2025-07-18</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="zh" href="Noneusage/controller/dexhand_controller_cn/"/>
     </url>
     <url>
         <loc>Noneusage/controller/mobile_controller_cn/</loc>
-        <lastmod>2025-07-17</lastmod>
+        <lastmod>2025-07-18</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="zh" href="Noneusage/controller/mobile_controller_cn/"/>
     </url>
     <url>
         <loc>Noneusage/example/collect_cn/</loc>
-        <lastmod>2025-07-17</lastmod>
+        <lastmod>2025-07-18</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="zh" href="Noneusage/example/collect_cn/"/>
     </url>
     <url>
         <loc>Noneusage/example/deploy_cn/</loc>
-        <lastmod>2025-07-17</lastmod>
+        <lastmod>2025-07-18</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="zh" href="Noneusage/example/deploy_cn/"/>
     </url>
     <url>
         <loc>Noneusage/my_robot/robot_cn/</loc>
-        <lastmod>2025-07-17</lastmod>
+        <lastmod>2025-07-18</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="zh" href="Noneusage/my_robot/robot_cn/"/>
     </url>
     <url>
+        <loc>Noneusage/my_robot/teleop_robot_cn/</loc>
+        <lastmod>2025-07-18</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="Noneusage/my_robot/teleop_robot_cn/"/>
+    </url>
+    <url>
         <loc>Noneusage/sensor/sensor_cn/</loc>
-        <lastmod>2025-07-17</lastmod>
+        <lastmod>2025-07-18</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="zh" href="Noneusage/sensor/sensor_cn/"/>
     </url>
     <url>
         <loc>Noneusage/sensor/teleoperation_sensor_cn/</loc>
-        <lastmod>2025-07-17</lastmod>
+        <lastmod>2025-07-18</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="zh" href="Noneusage/sensor/teleoperation_sensor_cn/"/>
     </url>
     <url>
         <loc>Noneusage/sensor/touch_sensor_cn/</loc>
-        <lastmod>2025-07-17</lastmod>
+        <lastmod>2025-07-18</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="zh" href="Noneusage/sensor/touch_sensor_cn/"/>
     </url>
     <url>
         <loc>Noneusage/sensor/vision_sensor_cn/</loc>
-        <lastmod>2025-07-17</lastmod>
+        <lastmod>2025-07-18</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="zh" href="Noneusage/sensor/vision_sensor_cn/"/>
     </url>
     <url>
         <loc>Noneusage/utils/component_worker_cn/</loc>
-        <lastmod>2025-07-17</lastmod>
+        <lastmod>2025-07-18</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="zh" href="Noneusage/utils/component_worker_cn/"/>
     </url>
     <url>
         <loc>Noneusage/utils/robot_worker_cn/</loc>
-        <lastmod>2025-07-17</lastmod>
+        <lastmod>2025-07-18</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="zh" href="Noneusage/utils/robot_worker_cn/"/>
     </url>
     <url>
         <loc>Noneusage/utils/time_scheduler_cn/</loc>
-        <lastmod>2025-07-17</lastmod>
+        <lastmod>2025-07-18</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="zh" href="Noneusage/utils/time_scheduler_cn/"/>
     </url>

@@ -2,6 +2,24 @@ site_name: Control Your Robot
 theme:
   name: material
   language: en
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.indexes
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.expand
+    - navigation.footer
+    - navigation.top
+    - toc.follow
+    - announce.dismiss
+    - search.suggest        # 搜索建议
+    - search.highlight      # 搜索结果高亮
+    - content.tabs          # 在 Markdown 中使用选项卡 (如 ```tabs)
+    - content.code.copy     # 为代码块添加复制按钮
+    - content.action.edit   # 在页面底部显示编辑链接 (需配置 edit_uri)
+
+
 
 plugins:
   - search:
@@ -23,26 +41,33 @@ plugins:
           name: 中文
           default: true
           nav:
-            - 主页: index.md  # ⚠️ 不要加 zh/ 前缀
-            - 入门:
-                - 快速开始: getting_started/quickstart_cn.md
-                - 安装指南: getting_started/installation_cn.md
+            - 主页: 
+              - 主页: index.md  # ⚠️ 不要加 zh/ 前缀
+              - 快速开始: getting_started/quickstart_cn.md
+              - 安装指南: getting_started/installation_cn.md
             - 用法:
-                - controller: 
-                  - 基础控制器类: usage/controller/controller_cn.md
-                  - 机械臂控制器类: usage/controller/arm_controller_cn.md
-                  - 底盘控制器类: usage/controller/mobile_controller_cn.md
-                  - 灵巧手控制器类: usage/controller/dexhand_controller_cn.md
-                - sensor: 
-                  - 传感器类: usage/sensor/sensor_cn.md
-                  - 视觉传感器类: usage/sensor/vision_sensor_cn.md
-                  - 触觉传感器类: usage/sensor/touch_sensor_cn.md
-                  - 遥操传感器类: usage/sensor/teleoperation_sensor_cn.md
-                - my_robot:
-                  - 自定义机器人: usage/my_robot/robot_cn.md
-                - collect:
-                  - 数据采集: usage/example/collect_cn.md
-                  - 模型部署: usage/example/deploy_cn.md
-                - utils:
-                  - 时间同步器: usage/utils/time_scheduler_cn.md
-
+              - 总览: usage/start.md
+              - controller: 
+                - 基础控制器类: usage/controller/controller_cn.md
+                - 机械臂控制器类: usage/controller/arm_controller_cn.md
+                - 底盘控制器类: usage/controller/mobile_controller_cn.md
+                - 灵巧手控制器类: usage/controller/dexhand_controller_cn.md
+              - sensor: 
+                - 传感器类: usage/sensor/sensor_cn.md
+                - 视觉传感器类: usage/sensor/vision_sensor_cn.md
+                - 触觉传感器类: usage/sensor/touch_sensor_cn.md
+                - 遥操传感器类: usage/sensor/teleoperation_sensor_cn.md
+              - scipts:
+                - 服务器&客户端操作: usage/scripts/client_server_cn.md
+              - my_robot:
+                - 机器人基类: usage/my_robot/base_robot_cn.md
+                - 自定义机器人: usage/my_robot/robot_cn.md
+                - 机器人遥操: usage/my_robot/teleop_robot_cn.md
+              - collect:
+                - 数据采集: usage/example/collect_cn.md
+                - 模型部署: usage/example/deploy_cn.md
+              - utils:
+                - 时间同步器: usage/utils/time_scheduler_cn.md
+            - 展示:
+              - 采集展示: demo/collect_demo_cn.md
+              

@@ -19,8 +19,6 @@ theme:
     - content.code.copy     # 为代码块添加复制按钮
     - content.action.edit   # 在页面底部显示编辑链接 (需配置 edit_uri)
 
-
-
 plugins:
   - search:
       separator: '[\s\u200b\-]'
@@ -43,6 +41,7 @@ plugins:
           nav:
             - 主页: 
               - 主页: index.md
+              - 更新日志: getting_started/update_cn.md
               - 快速开始: getting_started/quickstart_cn.md
               - 安装指南: getting_started/installation_cn.md
             - 用法:

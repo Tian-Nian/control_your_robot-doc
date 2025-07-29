@@ -43,6 +43,12 @@
         <xhtml:link rel="alternate" hreflang="zh" href="Nonegetting_started/quickstart_cn/"/>
     </url>
     <url>
+        <loc>Nonegetting_started/update_cn/</loc>
+        <lastmod>2025-07-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="Nonegetting_started/update_cn/"/>
+    </url>
+    <url>
         <loc>Noneusage/start/</loc>
         <lastmod>2025-07-29</lastmod>
         <changefreq>daily</changefreq>

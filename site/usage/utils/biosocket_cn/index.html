@@ -9,18 +9,22 @@
       
       
       
+        <link rel="prev" href="../time_scheduler_cn/">
       
       
-      <link rel="icon" href="../assets/images/favicon.png">
+        <link rel="next" href="../component_worker_cn/">
+      
+      
+      <link rel="icon" href="../../../assets/images/favicon.png">
       <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.15">
     
     
       
-        <title>控制你的机器人! - Control Your Robot</title>
+        <title>双向套接字通讯(biosocket) - Control Your Robot</title>
       
     
     
-      <link rel="stylesheet" href="../assets/stylesheets/main.342714a4.min.css">
+      <link rel="stylesheet" href="../../../assets/stylesheets/main.342714a4.min.css">
       
       
 
@@ -39,7 +43,7 @@
       
     
     
-    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    <script>__md_scope=new URL("../../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
 
@@ -74,7 +78,7 @@
 
 <header class="md-header md-header--shadow md-header--lifted" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="页眉">
-    <a href=".." title="Control Your Robot" class="md-header__button md-logo" aria-label="Control Your Robot" data-md-component="logo">
+    <a href="../../.." title="Control Your Robot" class="md-header__button md-logo" aria-label="Control Your Robot" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
@@ -94,7 +98,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              控制你的机器人!
+              双向套接字通讯(biosocket)
             
           </span>
         </div>
@@ -165,7 +169,7 @@
     
     
       <li class="md-tabs__item">
-        <a href=".." class="md-tabs__link">
+        <a href="../../.." class="md-tabs__link">
           
   
   
@@ -183,11 +187,13 @@
   
   
   
+    
+  
   
     
     
-      <li class="md-tabs__item">
-        <a href="../usage/start/" class="md-tabs__link">
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="../../start/" class="md-tabs__link">
           
   
   
@@ -209,7 +215,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="../demo/collect_demo_cn/" class="md-tabs__link">
+        <a href="../../../demo/collect_demo_cn/" class="md-tabs__link">
           
   
   
@@ -251,7 +257,7 @@
 
 <nav class="md-nav md-nav--primary md-nav--lifted" aria-label="导航栏" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href=".." title="Control Your Robot" class="md-nav__button md-logo" aria-label="Control Your Robot" data-md-component="logo">
+    <a href="../../.." title="Control Your Robot" class="md-nav__button md-logo" aria-label="Control Your Robot" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
@@ -296,7 +302,7 @@
         
           
           <div class="md-nav__link md-nav__container">
-            <a href=".." class="md-nav__link ">
+            <a href="../../.." class="md-nav__link ">
               
   
   
@@ -331,7 +337,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../getting_started/quickstart_cn/" class="md-nav__link">
+      <a href="../../../getting_started/quickstart_cn/" class="md-nav__link">
         
   
   
@@ -354,7 +360,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../getting_started/installation_cn/" class="md-nav__link">
+      <a href="../../../getting_started/installation_cn/" class="md-nav__link">
         
   
   
@@ -381,8 +387,10 @@
       
   
   
+    
   
   
+  
     
     
       
@@ -406,19 +414,20 @@
     
     
       
+        
+        
+      
       
     
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
       
         
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" checked>
         
           
-        
-        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_2" >
-        
-          
-          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="">
             
   
   
@@ -431,7 +440,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_2">
             <span class="md-nav__icon md-icon"></span>
             用法
@@ -445,7 +454,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../usage/start/" class="md-nav__link">
+      <a href="../../start/" class="md-nav__link">
         
   
   
@@ -521,7 +530,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../usage/controller/controller_cn/" class="md-nav__link">
+      <a href="../../controller/controller_cn/" class="md-nav__link">
         
   
   
@@ -544,7 +553,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../usage/controller/arm_controller_cn/" class="md-nav__link">
+      <a href="../../controller/arm_controller_cn/" class="md-nav__link">
         
   
   
@@ -567,7 +576,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../usage/controller/mobile_controller_cn/" class="md-nav__link">
+      <a href="../../controller/mobile_controller_cn/" class="md-nav__link">
         
   
   
@@ -590,7 +599,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../usage/controller/dexhand_controller_cn/" class="md-nav__link">
+      <a href="../../controller/dexhand_controller_cn/" class="md-nav__link">
         
   
   
@@ -674,7 +683,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../usage/sensor/sensor_cn/" class="md-nav__link">
+      <a href="../../sensor/sensor_cn/" class="md-nav__link">
         
   
   
@@ -697,7 +706,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../usage/sensor/vision_sensor_cn/" class="md-nav__link">
+      <a href="../../sensor/vision_sensor_cn/" class="md-nav__link">
         
   
   
@@ -720,7 +729,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../usage/sensor/touch_sensor_cn/" class="md-nav__link">
+      <a href="../../sensor/touch_sensor_cn/" class="md-nav__link">
         
   
   
@@ -743,7 +752,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../usage/sensor/teleoperation_sensor_cn/" class="md-nav__link">
+      <a href="../../sensor/teleoperation_sensor_cn/" class="md-nav__link">
         
   
   
@@ -821,7 +830,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../usage/policy/model_cn/" class="md-nav__link">
+      <a href="../../policy/model_cn/" class="md-nav__link">
         
   
   
@@ -899,7 +908,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../usage/scripts/client_server_cn/" class="md-nav__link">
+      <a href="../../scripts/client_server_cn/" class="md-nav__link">
         
   
   
@@ -981,7 +990,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../usage/my_robot/base_robot_cn/" class="md-nav__link">
+      <a href="../../my_robot/base_robot_cn/" class="md-nav__link">
         
   
   
@@ -1004,7 +1013,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../usage/my_robot/robot_cn/" class="md-nav__link">
+      <a href="../../my_robot/robot_cn/" class="md-nav__link">
         
   
   
@@ -1027,7 +1036,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../usage/my_robot/teleop_robot_cn/" class="md-nav__link">
+      <a href="../../my_robot/teleop_robot_cn/" class="md-nav__link">
         
   
   
@@ -1107,7 +1116,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../usage/example/collect_cn/" class="md-nav__link">
+      <a href="../../example/collect_cn/" class="md-nav__link">
         
   
   
@@ -1130,7 +1139,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../usage/example/deploy_cn/" class="md-nav__link">
+      <a href="../../example/deploy_cn/" class="md-nav__link">
         
   
   
@@ -1158,8 +1167,10 @@
                 
   
   
+    
   
   
+  
     
     
       
@@ -1188,13 +1199,11 @@
       
     
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
         
         
-          
-        
-        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_2_8" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_8" checked>
         
           
           <label class="md-nav__link" for="__nav_2_8" id="__nav_2_8_label" tabindex="0">
@@ -1210,7 +1219,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_8_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_8_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_2_8">
             <span class="md-nav__icon md-icon"></span>
             utils
@@ -1224,7 +1233,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../usage/utils/data_handler_cn/" class="md-nav__link">
+      <a href="../data_handler_cn/" class="md-nav__link">
         
   
   
@@ -1247,7 +1256,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../usage/utils/time_scheduler_cn/" class="md-nav__link">
+      <a href="../time_scheduler_cn/" class="md-nav__link">
         
   
   
@@ -1267,10 +1276,32 @@
                 
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="../usage/utils/biosocket_cn/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    双向套接字通讯(biosocket)
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   
@@ -1281,6 +1312,131 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="目录">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      目录
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      介绍
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      类定义
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      成员属性
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_5" class="md-nav__link">
+    <span class="md-ellipsis">
+      函数
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="函数">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#initself-conn-socketsocket-handler-send_backfalse" class="md-nav__link">
+    <span class="md-ellipsis">
+      init(self, conn: socket.socket, handler, send_back=False)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_recv_exactself-n-int-optionalbytes" class="md-nav__link">
+    <span class="md-ellipsis">
+      _recv_exact(self, n: int) -&gt; Optional[bytes]
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_recv_loopself" class="md-nav__link">
+    <span class="md-ellipsis">
+      _recv_loop(self)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sendself-data-dictany" class="md-nav__link">
+    <span class="md-ellipsis">
+      send(self, data: Dict[Any])
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#closeself" class="md-nav__link">
+    <span class="md-ellipsis">
+      close(self)
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_6" class="md-nav__link">
+    <span class="md-ellipsis">
+      使用示例
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_7" class="md-nav__link">
+    <span class="md-ellipsis">
+      注意事项
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -1293,7 +1449,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../usage/utils/component_worker_cn/" class="md-nav__link">
+      <a href="../component_worker_cn/" class="md-nav__link">
         
   
   
@@ -1316,7 +1472,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../usage/utils/robot_worker_cn/" class="md-nav__link">
+      <a href="../robot_worker_cn/" class="md-nav__link">
         
   
   
@@ -1339,7 +1495,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../usage/utils/ros_publisher_cn/" class="md-nav__link">
+      <a href="../ros_publisher_cn/" class="md-nav__link">
         
   
   
@@ -1362,7 +1518,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../usage/utils/ros_subscriber_cn/" class="md-nav__link">
+      <a href="../ros_subscriber_cn/" class="md-nav__link">
         
   
   
@@ -1385,7 +1541,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../usage/utils/ros2_publisher_cn/" class="md-nav__link">
+      <a href="../ros2_publisher_cn/" class="md-nav__link">
         
   
   
@@ -1408,7 +1564,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../usage/utils/ros2_subscriber_cn/" class="md-nav__link">
+      <a href="../ros2_subscriber_cn/" class="md-nav__link">
         
   
   
@@ -1493,7 +1649,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../demo/collect_demo_cn/" class="md-nav__link">
+      <a href="../../../demo/collect_demo_cn/" class="md-nav__link">
         
   
   
@@ -1545,54 +1701,80 @@
         <li class="md-nav__item">
   <a href="#_2" class="md-nav__link">
     <span class="md-ellipsis">
-      🚀 机器人控制开发进展
+      介绍
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="🚀 机器人控制开发进展">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
+</li>
+      
+        <li class="md-nav__item">
   <a href="#_3" class="md-nav__link">
     <span class="md-ellipsis">
-      📅 更新记录
+      类定义
     </span>
   </a>
   
 </li>
-        
-          <li class="md-nav__item">
+      
+        <li class="md-nav__item">
   <a href="#_4" class="md-nav__link">
     <span class="md-ellipsis">
-      🛣️ 正在路上
+      成员属性
     </span>
   </a>
   
 </li>
-        
-          <li class="md-nav__item">
+      
+        <li class="md-nav__item">
   <a href="#_5" class="md-nav__link">
     <span class="md-ellipsis">
-      🤖 设备支持情况
+      函数
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="🤖 设备支持情况">
+    <nav class="md-nav" aria-label="函数">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#_6" class="md-nav__link">
+  <a href="#initself-conn-socketsocket-handler-send_backfalse" class="md-nav__link">
     <span class="md-ellipsis">
-      🎛️ 控制器
+      init(self, conn: socket.socket, handler, send_back=False)
     </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#_7" class="md-nav__link">
+  <a href="#_recv_exactself-n-int-optionalbytes" class="md-nav__link">
     <span class="md-ellipsis">
-      📡 传感器
+      _recv_exact(self, n: int) -&gt; Optional[bytes]
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_recv_loopself" class="md-nav__link">
+    <span class="md-ellipsis">
+      _recv_loop(self)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sendself-data-dictany" class="md-nav__link">
+    <span class="md-ellipsis">
+      send(self, data: Dict[Any])
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#closeself" class="md-nav__link">
+    <span class="md-ellipsis">
+      close(self)
     </span>
   </a>
   
@@ -1602,9 +1784,22 @@
     </nav>
   
 </li>
-        
-      </ul>
-    </nav>
+      
+        <li class="md-nav__item">
+  <a href="#_6" class="md-nav__link">
+    <span class="md-ellipsis">
+      使用示例
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_7" class="md-nav__link">
+    <span class="md-ellipsis">
+      注意事项
+    </span>
+  </a>
   
 </li>
       
@@ -1624,179 +1819,119 @@
 
 
 
-<h1 id="_1">控制你的机器人!</h1>
-<p>该项目旨在与帮助各位进入具身智能领域后能快速上手一整套从控制机械臂开始, 到数据采集, 到最终VLA模型的训练与部署的流程.</p>
-<h2 id="_2">🚀 机器人控制开发进展</h2>
-<h3 id="_3">📅 更新记录</h3>
+<h1 id="_1">双向通信套接字类</h1>
+<h2 id="_2">介绍</h2>
+<p><code>BiSocket</code> 是一个基于 TCP 套接字的双向通信类，支持从连接中接收消息并自动调用 <code>handler</code> 处理逻辑。可选启用“回传模式”（<code>send_back=True</code>），即在处理后将结果返回给发送方。该类适用于客户端-服务端架构中状态、控制、数据的同步交互。</p>
+<h2 id="_3">类定义</h2>
+<pre><code class="language-python">class BiSocket:
+</code></pre>
+<h2 id="_4">成员属性</h2>
 <table>
 <thead>
 <tr>
-<th>日期</th>
-<th>更新内容</th>
-<th>状态</th>
+<th>属性名</th>
+<th>类型</th>
+<th>说明</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td>2025.7.17</td>
-<td>🦾添加了中文文档</td>
-<td>✅ 已发布,待完善</td>
+<td>conn</td>
+<td>socket.socket</td>
+<td>已连接的套接字对象</td>
 </tr>
 <tr>
-<td>2025.7.14</td>
-<td>🦾添加了多进程的基础组件数据采集支持</td>
-<td>✅ 已发布</td>
+<td>handler</td>
+<td>Callable</td>
+<td>接收数据时回调执行的函数，输入为消息内容（一般为 Dict[Any]）</td>
 </tr>
 <tr>
-<td>2025.6.15</td>
-<td>🦾添加了完整的PIka遥操机械臂示例</td>
-<td>✅ 已发布</td>
+<td>send_back</td>
+<td>bool</td>
+<td>是否开启“回传模式”，若为 True，则会将 handler 的返回值通过 send() 发回</td>
 </tr>
 <tr>
-<td>2025.5.27</td>
-<td>🧪 添加完善测试样例, 便于程序调试与参考</td>
-<td>✅ 已发布</td>
+<td>running</td>
+<td>threading.Event</td>
+<td>控制接收线程是否继续运行的事件标志</td>
 </tr>
 <tr>
-<td>2025.5.26</td>
-<td>💻 客户端-服务器通讯实现，远程推理与本地控制</td>
-<td>✅ 已发布</td>
-</tr>
-<tr>
-<td>2025.5.22</td>
-<td>🎭 通用Planner接入,通用IK逆解</td>
-<td>✅ 已发布</td>
-</tr>
-<tr>
-<td>2025.5.10</td>
-<td>🎭 Hybrid VLA，OpenVLA-oft正在路上</td>
-<td>❌测试中，待发布</td>
-</tr>
-<tr>
-<td>2025.4.10</td>
-<td>🎮 遥操设备接口封装，pika设备支持</td>
-<td>✅ 已发布</td>
-</tr>
-<tr>
-<td>2025.4.3</td>
-<td>🤖 agilex底盘控制与ROS接口封装</td>
-<td>✅ 已发布</td>
-</tr>
-<tr>
-<td>2025.3.25</td>
-<td>🦾 agliex机械臂支持</td>
-<td>✅ 已发布</td>
-</tr>
-<tr>
-<td>2025.3.10</td>
-<td>🏗️ RealMan机械臂支持</td>
-<td>✅ 已发布</td>
-</tr>
-<tr>
-<td>2025.2.15</td>
-<td>📊 通用数据采集流程完成</td>
-<td>✅ 已发布</td>
-</tr>
-<tr>
-<td>2024.12.1</td>
-<td>🧠 VLA模型训练框架规范化</td>
-<td>✅ 已发布</td>
+<td>receiver_thread</td>
+<td>threading.Thread</td>
+<td>后台接收线程，负责持续监听并处理来自连接的数据</td>
 </tr>
 </tbody>
 </table>
-<h3 id="_4">🛣️ 正在路上</h3>
+<h2 id="_5">函数</h2>
+<h3 id="initself-conn-socketsocket-handler-send_backfalse"><strong><strong>init</strong>(self, conn: socket.socket, handler, send_back=False)</strong></h3>
+<p>初始化一个 <code>BiSocket</code> 实例。</p>
 <ul>
-<li>[✅] ⛓️‍💥 控制器与模型推理分开，支持远程部署与本地多脚本同步，解决环境兼容问题</li>
-<li>[✅] 🔢 curobo高效IK逆解器封装（需URDF支持）</li>
-<li>[ ] 🕹️ pika遥操控制任意机械臂示例</li>
-<li>[ ] 📦 更多控制器与传感器支持</li>
-<li>[ ] 🧩 更多机器人模型集成</li>
+<li>参数：</li>
+<li><code>conn</code> (socket.socket): 已建立连接的 TCP 套接字</li>
+<li><code>handler</code> (Callable): 消息处理函数，接受消息数据作为参数</li>
+<li>
+<p><code>send_back</code> (bool): 是否启用处理结果的回传，默认为 False</p>
+</li>
+<li>
+<p>返回：无</p>
+</li>
 </ul>
-<h3 id="_5">🤖 设备支持情况</h3>
-<h4 id="_6">🎛️ 控制器</h4>
-<p><strong>✅ 已实现</strong></p>
-<table>
-<thead>
-<tr>
-<th>机械臂</th>
-<th>底盘</th>
-<th>灵巧手</th>
-<th>其他</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Agilex Piper</td>
-<td>Agilex Tracer2.0</td>
-<td>🚧 开发中</td>
-<td>📦 待补充</td>
-</tr>
-<tr>
-<td>RealMan 65B</td>
-<td>📦 待补充</td>
-<td>📦 待补充</td>
-<td>📦 待补充</td>
-</tr>
-<tr>
-<td>daran aloha</td>
-<td>📦 待补充</td>
-<td>📦 待补充</td>
-<td>📦 待补充</td>
-</tr>
-</tbody>
-</table>
-<p><strong>🚧 准备支持</strong></p>
-<table>
-<thead>
-<tr>
-<th>机械臂</th>
-<th>底盘</th>
-<th>灵巧手</th>
-<th>其他</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>JAKA</td>
-<td>📦 待补充</td>
-<td>📦 待补充</td>
-<td>📦 待补充</td>
-</tr>
-<tr>
-<td>Franka</td>
-<td>📦 待补充</td>
-<td>📦 待补充</td>
-<td>📦 待补充</td>
-</tr>
-<tr>
-<td>UR5e</td>
-<td>📦 待补充</td>
-<td>📦 待补充</td>
-<td>📦 待补充</td>
-</tr>
-</tbody>
-</table>
-<h4 id="_7">📡 传感器</h4>
-<p><strong>✅ 已实现</strong></p>
-<table>
-<thead>
-<tr>
-<th>视觉传感器</th>
-<th>触觉传感器</th>
-<th>其他传感器</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>RealSense D435</td>
-<td>🚧 开发中</td>
-<td>📦 待补充</td>
-</tr>
-</tbody>
-</table>
-<p><strong>🚧 准备支持</strong>
-有需要新的传感器支持请提issue，也欢迎PR你的传感器配置！</p>
-<p>👉 <a href="usage/features.md">Usage Guide</a></p>
+<hr />
+<h3 id="_recv_exactself-n-int-optionalbytes"><strong>_recv_exact(self, n: int) -&gt; Optional[bytes]</strong></h3>
+<p>从连接中接收精确长度的字节数据。</p>
+<ul>
+<li>参数：</li>
+<li>
+<p><code>n</code> (int): 要接收的字节数</p>
+</li>
+<li>
+<p>返回：</p>
+</li>
+<li><code>bytes</code>：接收到的数据；若连接关闭或出错则返回 None</li>
+</ul>
+<hr />
+<h3 id="_recv_loopself"><strong>_recv_loop(self)</strong></h3>
+<p>后台线程函数，持续监听消息输入并执行 handler。若 <code>send_back=True</code> 则将处理结果通过 send() 发回。</p>
+<ul>
+<li>参数：无</li>
+<li>返回：无（死循环，直到连接关闭）</li>
+</ul>
+<hr />
+<h3 id="sendself-data-dictany"><strong>send(self, data: Dict[Any])</strong></h3>
+<p>将数据发送给对端。使用 pickle 序列化，并发送带长度前缀的数据包。</p>
+<ul>
+<li>参数：</li>
+<li>
+<p><code>data</code> (Dict[Any])：要发送的数据字典，支持任何可序列化对象</p>
+</li>
+<li>
+<p>返回：无（发送失败将关闭连接）</p>
+</li>
+</ul>
+<hr />
+<h3 id="closeself"><strong>close(self)</strong></h3>
+<p>主动关闭连接，停止接收线程。</p>
+<ul>
+<li>参数：无</li>
+<li>返回：无</li>
+</ul>
+<hr />
+<h2 id="_6">使用示例</h2>
+<pre><code class="language-python"># 假设你已经在 server 端使用 socket.accept() 得到了 conn:
+def my_handler(data):
+    print(&quot;Received:&quot;, data)
+    return {&quot;status&quot;: &quot;ok&quot;}
+
+bisocket = BiSocket(conn, handler=my_handler, send_back=True)
+bisocket.send({&quot;command&quot;: &quot;move&quot;, &quot;value&quot;: 1.0})
+</code></pre>
+<hr />
+<h2 id="_7">注意事项</h2>
+<ul>
+<li>若 <code>handler</code> 抛出异常或处理失败，系统会记录错误但不中断主循环。</li>
+<li>本类设计用于长连接场景，如需频繁建立关闭连接，需增加额外状态管理。</li>
+<li>若远端关闭连接或发送非法数据（反序列化失败），会自动关闭当前连接。</li>
+</ul>
 
 
 
@@ -1828,6 +1963,44 @@
         <footer class="md-footer">
   
     
+      
+      <nav class="md-footer__inner md-grid" aria-label="页脚" >
+        
+          
+          <a href="../time_scheduler_cn/" class="md-footer__link md-footer__link--prev" aria-label="上一页: 时间同步器(time_scheduler)">
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+            </div>
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                上一页
+              </span>
+              <div class="md-ellipsis">
+                时间同步器(time_scheduler)
+              </div>
+            </div>
+          </a>
+        
+        
+          
+          <a href="../component_worker_cn/" class="md-footer__link md-footer__link--next" aria-label="下一页: 组件式多进程单元(component_worker)">
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                下一页
+              </span>
+              <div class="md-ellipsis">
+                组件式多进程单元(component_worker)
+              </div>
+            </div>
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11z"/></svg>
+            </div>
+          </a>
+        
+      </nav>
+    
   
   <div class="md-footer-meta md-typeset">
     <div class="md-footer-meta__inner md-grid">
@@ -1853,10 +2026,10 @@
     
     
       
-      <script id="__config" type="application/json">{"base": "..", "features": ["navigation.instant", "navigation.tracking", "navigation.indexes", "navigation.tabs", "navigation.tabs.sticky", "navigation.expand", "navigation.footer", "navigation.top", "toc.follow", "announce.dismiss", "search.suggest", "search.highlight", "content.tabs", "content.code.copy", "content.action.edit"], "search": "../assets/javascripts/workers/search.d50fe291.min.js", "tags": null, "translations": {"clipboard.copied": "\u5df2\u590d\u5236", "clipboard.copy": "\u590d\u5236", "search.result.more.one": "\u5728\u8be5\u9875\u4e0a\u8fd8\u6709 1 \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.more.other": "\u5728\u8be5\u9875\u4e0a\u8fd8\u6709 # \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.none": "\u6ca1\u6709\u627e\u5230\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.one": "\u627e\u5230 1 \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.other": "# \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.placeholder": "\u952e\u5165\u4ee5\u5f00\u59cb\u641c\u7d22", "search.result.term.missing": "\u7f3a\u5c11", "select.version": "\u9009\u62e9\u5f53\u524d\u7248\u672c"}, "version": null}</script>
+      <script id="__config" type="application/json">{"base": "../../..", "features": ["navigation.instant", "navigation.tracking", "navigation.indexes", "navigation.tabs", "navigation.tabs.sticky", "navigation.expand", "navigation.footer", "navigation.top", "toc.follow", "announce.dismiss", "search.suggest", "search.highlight", "content.tabs", "content.code.copy", "content.action.edit"], "search": "../../../assets/javascripts/workers/search.d50fe291.min.js", "tags": null, "translations": {"clipboard.copied": "\u5df2\u590d\u5236", "clipboard.copy": "\u590d\u5236", "search.result.more.one": "\u5728\u8be5\u9875\u4e0a\u8fd8\u6709 1 \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.more.other": "\u5728\u8be5\u9875\u4e0a\u8fd8\u6709 # \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.none": "\u6ca1\u6709\u627e\u5230\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.one": "\u627e\u5230 1 \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.other": "# \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.placeholder": "\u952e\u5165\u4ee5\u5f00\u59cb\u641c\u7d22", "search.result.term.missing": "\u7f3a\u5c11", "select.version": "\u9009\u62e9\u5f53\u524d\u7248\u672c"}, "version": null}</script>
     
     
-      <script src="../assets/javascripts/bundle.56ea9cef.min.js"></script>
+      <script src="../../../assets/javascripts/bundle.56ea9cef.min.js"></script>
       
     
   </body>

@@ -42,32 +42,41 @@ plugins:
           default: true
           nav:
             - 主页: 
-              - 主页: index.md  # ⚠️ 不要加 zh/ 前缀
+              - 主页: index.md
               - 快速开始: getting_started/quickstart_cn.md
               - 安装指南: getting_started/installation_cn.md
             - 用法:
               - 总览: usage/start.md
               - controller: 
-                - 基础控制器类: usage/controller/controller_cn.md
-                - 机械臂控制器类: usage/controller/arm_controller_cn.md
-                - 底盘控制器类: usage/controller/mobile_controller_cn.md
-                - 灵巧手控制器类: usage/controller/dexhand_controller_cn.md
+                - 基础控制器类(controller): usage/controller/controller_cn.md
+                - 机械臂控制器类(arm_controller): usage/controller/arm_controller_cn.md
+                - 底盘控制器类(mobile_controller): usage/controller/mobile_controller_cn.md
+                - 灵巧手控制器类(dexhand_controller): usage/controller/dexhand_controller_cn.md
               - sensor: 
-                - 传感器类: usage/sensor/sensor_cn.md
-                - 视觉传感器类: usage/sensor/vision_sensor_cn.md
-                - 触觉传感器类: usage/sensor/touch_sensor_cn.md
-                - 遥操传感器类: usage/sensor/teleoperation_sensor_cn.md
+                - 传感器类(sensor): usage/sensor/sensor_cn.md
+                - 视觉传感器类(vision_sensor): usage/sensor/vision_sensor_cn.md
+                - 触觉传感器类(touch_sensor): usage/sensor/touch_sensor_cn.md
+                - 遥操传感器类(teleop_sensor): usage/sensor/teleoperation_sensor_cn.md
+              - policy:
+                - 策略部署: usage/policy/model_cn.md
               - scipts:
-                - 服务器&客户端操作: usage/scripts/client_server_cn.md
+                - 服务器&客户端操作(clinet&server): usage/scripts/client_server_cn.md
               - my_robot:
-                - 机器人基类: usage/my_robot/base_robot_cn.md
+                - 机器人基类(base_robot): usage/my_robot/base_robot_cn.md
                 - 自定义机器人: usage/my_robot/robot_cn.md
                 - 机器人遥操: usage/my_robot/teleop_robot_cn.md
-              - collect:
-                - 数据采集: usage/example/collect_cn.md
-                - 模型部署: usage/example/deploy_cn.md
+              - example:
+                - 数据采集(collect): usage/example/collect_cn.md
+                - 模型部署(deploy): usage/example/deploy_cn.md
               - utils:
-                - 时间同步器: usage/utils/time_scheduler_cn.md
+                - 数据处理(data_handler): usage/utils/data_handler_cn.md
+                - 时间同步器(time_scheduler): usage/utils/time_scheduler_cn.md
+                - 双向套接字通讯(biosocket): usage/utils/biosocket_cn.md
+                - 组件式多进程单元(component_worker): usage/utils/component_worker_cn.md
+                - 机器人式多进程单元(robot_worker): usage/utils/robot_worker_cn.md
+                - ROS1发布(ros_publisher): usage/utils/ros_publisher_cn.md
+                - ROS1订阅(ros_subscriber): usage/utils/ros_subscriber_cn.md
+                - ROS2发布(ros2_publisher): usage/utils/ros2_publisher_cn.md
+                - ROS2订阅(ros2_subscriber): usage/utils/ros2_subscriber_cn.md
             - 展示:
               - 采集展示: demo/collect_demo_cn.md
-              

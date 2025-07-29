@@ -9,6 +9,10 @@
       
       
       
+        <link rel="prev" href="../biosocket_cn/">
+      
+      
+        <link rel="next" href="../robot_worker_cn/">
       
       
       <link rel="icon" href="../../../assets/images/favicon.png">
@@ -16,7 +20,7 @@
     
     
       
-        <title>组件并行单元 - Control Your Robot</title>
+        <title>组件式多进程单元(component_worker) - Control Your Robot</title>
       
     
     
@@ -94,7 +98,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              组件并行单元
+              组件式多进程单元(component_worker)
             
           </span>
         </div>
@@ -183,10 +187,12 @@
   
   
   
+    
+  
   
     
     
-      <li class="md-tabs__item">
+      <li class="md-tabs__item md-tabs__item--active">
         <a href="../../start/" class="md-tabs__link">
           
   
@@ -381,8 +387,10 @@
       
   
   
+    
   
   
+  
     
     
       
@@ -400,23 +408,26 @@
       
         
       
-    
-    
-    
-      
+        
       
     
     
-    <li class="md-nav__item md-nav__item--nested">
+    
       
         
+        
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" checked>
         
           
-        
-        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_2" >
-        
-          
-          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="">
             
   
   
@@ -429,7 +440,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_2">
             <span class="md-nav__icon md-icon"></span>
             用法
@@ -524,7 +535,7 @@
   
   
   <span class="md-ellipsis">
-    基础控制器类
+    基础控制器类(controller)
     
   </span>
   
@@ -547,7 +558,7 @@
   
   
   <span class="md-ellipsis">
-    机械臂控制器类
+    机械臂控制器类(arm_controller)
     
   </span>
   
@@ -570,7 +581,7 @@
   
   
   <span class="md-ellipsis">
-    底盘控制器类
+    底盘控制器类(mobile_controller)
     
   </span>
   
@@ -593,7 +604,7 @@
   
   
   <span class="md-ellipsis">
-    灵巧手控制器类
+    灵巧手控制器类(dexhand_controller)
     
   </span>
   
@@ -677,7 +688,7 @@
   
   
   <span class="md-ellipsis">
-    传感器类
+    传感器类(sensor)
     
   </span>
   
@@ -700,7 +711,7 @@
   
   
   <span class="md-ellipsis">
-    视觉传感器类
+    视觉传感器类(vision_sensor)
     
   </span>
   
@@ -723,7 +734,7 @@
   
   
   <span class="md-ellipsis">
-    触觉传感器类
+    触觉传感器类(touch_sensor)
     
   </span>
   
@@ -746,7 +757,7 @@
   
   
   <span class="md-ellipsis">
-    遥操传感器类
+    遥操传感器类(teleop_sensor)
     
   </span>
   
@@ -797,7 +808,7 @@
   
   
   <span class="md-ellipsis">
-    scipts
+    policy
     
   </span>
   
@@ -807,6 +818,84 @@
         
         <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_4_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_2_4">
+            <span class="md-nav__icon md-icon"></span>
+            policy
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../policy/model_cn/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    策略部署
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_2_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_2_5" id="__nav_2_5_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    scipts
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_5">
             <span class="md-nav__icon md-icon"></span>
             scipts
           </label>
@@ -824,7 +913,7 @@
   
   
   <span class="md-ellipsis">
-    服务器&客户端操作
+    服务器&客户端操作(clinet&server)
     
   </span>
   
@@ -871,10 +960,10 @@
         
           
         
-        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_2_5" >
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_2_6" >
         
           
-          <label class="md-nav__link" for="__nav_2_5" id="__nav_2_5_label" tabindex="0">
+          <label class="md-nav__link" for="__nav_2_6" id="__nav_2_6_label" tabindex="0">
             
   
   
@@ -887,8 +976,8 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_5_label" aria-expanded="false">
-          <label class="md-nav__title" for="__nav_2_5">
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_6">
             <span class="md-nav__icon md-icon"></span>
             my_robot
           </label>
@@ -906,7 +995,7 @@
   
   
   <span class="md-ellipsis">
-    机器人基类
+    机器人基类(base_robot)
     
   </span>
   
@@ -997,15 +1086,15 @@
         
           
         
-        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_2_6" >
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_2_7" >
         
           
-          <label class="md-nav__link" for="__nav_2_6" id="__nav_2_6_label" tabindex="0">
+          <label class="md-nav__link" for="__nav_2_7" id="__nav_2_7_label" tabindex="0">
             
   
   
   <span class="md-ellipsis">
-    collect
+    example
     
   </span>
   
@@ -1013,10 +1102,10 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_6_label" aria-expanded="false">
-          <label class="md-nav__title" for="__nav_2_6">
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_7_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_7">
             <span class="md-nav__icon md-icon"></span>
-            collect
+            example
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
             
@@ -1032,7 +1121,7 @@
   
   
   <span class="md-ellipsis">
-    数据采集
+    数据采集(collect)
     
   </span>
   
@@ -1055,7 +1144,7 @@
   
   
   <span class="md-ellipsis">
-    模型部署
+    模型部署(deploy)
     
   </span>
   
@@ -1078,10 +1167,28 @@
                 
   
   
+    
   
   
+  
     
     
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
       
         
       
@@ -1092,16 +1199,14 @@
       
     
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
         
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_8" checked>
         
           
-        
-        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_2_7" >
-        
-          
-          <label class="md-nav__link" for="__nav_2_7" id="__nav_2_7_label" tabindex="0">
+          <label class="md-nav__link" for="__nav_2_8" id="__nav_2_8_label" tabindex="0">
             
   
   
@@ -1114,12 +1219,35 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_7_label" aria-expanded="false">
-          <label class="md-nav__title" for="__nav_2_7">
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_8_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_2_8">
             <span class="md-nav__icon md-icon"></span>
             utils
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../data_handler_cn/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    数据处理(data_handler)
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
             
               
                 
@@ -1133,7 +1261,366 @@
   
   
   <span class="md-ellipsis">
-    时间同步器
+    时间同步器(time_scheduler)
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../biosocket_cn/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    双向套接字通讯(biosocket)
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    组件式多进程单元(component_worker)
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    组件式多进程单元(component_worker)
+    
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="目录">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      目录
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#databuffer" class="md-nav__link">
+    <span class="md-ellipsis">
+      类定义：DataBuffer
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="类定义：DataBuffer">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      成员属性
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      函数一览
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="函数一览">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#__init__self-manager" class="md-nav__link">
+    <span class="md-ellipsis">
+      __init__(self, manager)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#collectself-name-data" class="md-nav__link">
+    <span class="md-ellipsis">
+      collect(self, name, data)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#getself" class="md-nav__link">
+    <span class="md-ellipsis">
+      get(self)
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#componentworker" class="md-nav__link">
+    <span class="md-ellipsis">
+      函数定义：ComponentWorker
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="函数定义：ComponentWorker">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      参数说明
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_5" class="md-nav__link">
+    <span class="md-ellipsis">
+      示例：主函数使用方式（简略）
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#controller-sensor" class="md-nav__link">
+    <span class="md-ellipsis">
+      实现自己的组件类（Controller 或 Sensor）
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="实现自己的组件类（Controller 或 Sensor）">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_6" class="md-nav__link">
+    <span class="md-ellipsis">
+      必要函数
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="必要函数">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#set_upargs" class="md-nav__link">
+    <span class="md-ellipsis">
+      set_up(*args)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#set_collect_infoinfo-liststr" class="md-nav__link">
+    <span class="md-ellipsis">
+      set_collect_info(info: List[str])
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#get-dictstr-any" class="md-nav__link">
+    <span class="md-ellipsis">
+      get() -&gt; Dict[str, Any]
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../robot_worker_cn/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    机器人式多进程单元(robot_worker)
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../ros_publisher_cn/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    ROS1发布(ros_publisher)
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../ros_subscriber_cn/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    ROS1订阅(ros_subscriber)
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../ros2_publisher_cn/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    ROS2发布(ros2_publisher)
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../ros2_subscriber_cn/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    ROS2订阅(ros2_subscriber)
     
   </span>
   
@@ -1256,6 +1743,170 @@
     
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      目录
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#databuffer" class="md-nav__link">
+    <span class="md-ellipsis">
+      类定义：DataBuffer
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="类定义：DataBuffer">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      成员属性
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      函数一览
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="函数一览">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#__init__self-manager" class="md-nav__link">
+    <span class="md-ellipsis">
+      __init__(self, manager)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#collectself-name-data" class="md-nav__link">
+    <span class="md-ellipsis">
+      collect(self, name, data)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#getself" class="md-nav__link">
+    <span class="md-ellipsis">
+      get(self)
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#componentworker" class="md-nav__link">
+    <span class="md-ellipsis">
+      函数定义：ComponentWorker
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="函数定义：ComponentWorker">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      参数说明
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_5" class="md-nav__link">
+    <span class="md-ellipsis">
+      示例：主函数使用方式（简略）
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#controller-sensor" class="md-nav__link">
+    <span class="md-ellipsis">
+      实现自己的组件类（Controller 或 Sensor）
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="实现自己的组件类（Controller 或 Sensor）">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_6" class="md-nav__link">
+    <span class="md-ellipsis">
+      必要函数
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="必要函数">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#set_upargs" class="md-nav__link">
+    <span class="md-ellipsis">
+      set_up(*args)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#set_collect_infoinfo-liststr" class="md-nav__link">
+    <span class="md-ellipsis">
+      set_collect_info(info: List[str])
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#get-dictstr-any" class="md-nav__link">
+    <span class="md-ellipsis">
+      get() -&gt; Dict[str, Any]
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -1270,8 +1921,180 @@
 
 
 
-<h1 id="_1">组件并行单元</h1>
-<p>aaa</p>
+<h1 id="_1">模块：多进程同步与数据共享</h1>
+<hr />
+<h2 id="databuffer">类定义：DataBuffer</h2>
+<p>用于在多进程环境中共享不同组件采集的数据。</p>
+<pre><code class="language-python">class DataBuffer:
+    '''
+    一个用于共享存储不同组件采集的数据的信息的类
+    输入:
+    manager: 创建的一个独立的控制器, multiprocessing::Manager
+    '''
+    def __init__(self, manager):
+        self.manager = manager
+        self.buffer = manager.dict()
+
+    def collect(self, name, data):
+        if name not in self.buffer:
+            self.buffer[name] = self.manager.list()
+        self.buffer[name].append(data)
+
+    def get(self):
+        return dict(self.buffer)
+</code></pre>
+<h3 id="_2">成员属性</h3>
+<table>
+<thead>
+<tr>
+<th>属性名</th>
+<th>类型</th>
+<th>说明</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>manager</code></td>
+<td><code>multiprocessing.Manager</code></td>
+<td>控制共享数据结构的创建与同步</td>
+</tr>
+<tr>
+<td><code>buffer</code></td>
+<td><code>Dict[str, List[Any]]</code></td>
+<td>存储按组件名分类的数据列表</td>
+</tr>
+</tbody>
+</table>
+<h3 id="_3">函数一览</h3>
+<h4 id="__init__self-manager"><code>__init__(self, manager)</code></h4>
+<ul>
+<li><strong>功能</strong>：初始化共享数据容器。</li>
+<li><strong>参数</strong>：</li>
+<li><code>manager</code> (<code>multiprocessing.Manager</code>): 多进程共享管理器。</li>
+</ul>
+<h4 id="collectself-name-data"><code>collect(self, name, data)</code></h4>
+<ul>
+<li><strong>功能</strong>：收集一条数据并按组件名分类存入缓冲区。</li>
+<li><strong>参数</strong>：</li>
+<li><code>name</code> (<code>str</code>): 组件名称。</li>
+<li><code>data</code> (<code>Any</code>): 要存储的数据。</li>
+</ul>
+<h4 id="getself"><code>get(self)</code></h4>
+<ul>
+<li><strong>功能</strong>：获取所有已存储的数据副本（转为常规字典）。</li>
+<li><strong>返回值</strong>：<code>Dict[str, List[Any]]</code> 数据缓冲字典。</li>
+</ul>
+<hr />
+<h2 id="componentworker">函数定义：ComponentWorker</h2>
+<p>组件级别的多进程同步器，用于执行独立子进程的组件采集逻辑。</p>
+<pre><code class="language-python">def ComponentWorker(component_class, component_name, component_setup_input,
+                    component_collect_info, data_buffer: DataBuffer,
+                    time_lock: Semaphore, start_event: Event,
+                    finish_event: Event, process_name: str):
+    '''
+    组件级别的多进程同步器, 用于多进程数据采集, 如果希望是多进程的同步控制也可以稍微改下代码添加一个共享的信号输入
+    输入:
+    component_class: 你的组件类, 可以自定义的是controller / sensor, class
+    component_name: 你希望组件的名称, 用于对应组件info的输出, str
+    component_setup_input: 组件初始化需要设置的信息, List[Any]
+    component_collect_info: 组件采集的数据种类, List[str]
+    data_buffer: 初始化一个同步所有组件的内存空间, DataBuffer
+    time_lock: 初始化对于当前组件的时间同步锁, 该锁需要分配给time_scheduler用于控制时间, multiprocessing::Semaphore
+    start_event: 同步开始事件, 所有的组件共用一个, multiprocessing::Event
+    finish_event: 同步结束事件, 所有的组件共用一个, multiprocessing::Event
+    process_name:你希望当前进程叫什么, 用于对应子进程info的输出, str
+    '''
+</code></pre>
+<h3 id="_4">参数说明</h3>
+<table>
+<thead>
+<tr>
+<th>参数名</th>
+<th>类型</th>
+<th>说明</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>component_class</code></td>
+<td><code>Type</code></td>
+<td>自定义组件类（如 <code>TestArmController</code>, <code>TestVisionSensor</code>）</td>
+</tr>
+<tr>
+<td><code>component_name</code></td>
+<td><code>str</code></td>
+<td>组件名称（用于调试和分类数据）</td>
+</tr>
+<tr>
+<td><code>component_setup_input</code></td>
+<td><code>Optional[List[Any]]</code></td>
+<td>组件初始化参数，如为 <code>None</code> 则使用默认构造函数</td>
+</tr>
+<tr>
+<td><code>component_collect_info</code></td>
+<td><code>List[str]</code></td>
+<td>该组件要采集的数据类型（如 <code>["color"]</code>, <code>["joint", "qpos"]</code>）</td>
+</tr>
+<tr>
+<td><code>data_buffer</code></td>
+<td><code>DataBuffer</code></td>
+<td>数据共享对象，跨进程存储采集结果</td>
+</tr>
+<tr>
+<td><code>time_lock</code></td>
+<td><code>Semaphore</code></td>
+<td>控制时间步的锁，与时间调度器配合控制采集频率</td>
+</tr>
+<tr>
+<td><code>start_event</code></td>
+<td><code>Event</code></td>
+<td>由主线程触发的全局“开始”事件</td>
+</tr>
+<tr>
+<td><code>finish_event</code></td>
+<td><code>Event</code></td>
+<td>全局“结束”事件，触发后各子进程结束任务</td>
+</tr>
+<tr>
+<td><code>process_name</code></td>
+<td><code>str</code></td>
+<td>当前进程的标识名（用于 debug 日志输出）</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="_5">示例：主函数使用方式（简略）</h2>
+<pre><code class="language-python">manager = Manager()
+data_buffer = DataBuffer(manager)
+time_lock = Semaphore(0)
+start_event = Event()
+finish_event = Event()
+
+vision_proc = Process(target=ComponentWorker, args=(
+    TestVisionSensor, &quot;vision&quot;, None, [&quot;color&quot;],
+    data_buffer, time_lock, start_event, finish_event, &quot;vision_proc&quot;
+))
+vision_proc.start()
+</code></pre>
+<hr />
+<h2 id="controller-sensor">实现自己的组件类（Controller 或 Sensor）</h2>
+<p>组件类需要实现以下接口：</p>
+<h3 id="_6">必要函数</h3>
+<h4 id="set_upargs"><code>set_up(*args)</code></h4>
+<ul>
+<li>初始化组件，接收任意参数。</li>
+<li>无返回值。</li>
+</ul>
+<h4 id="set_collect_infoinfo-liststr"><code>set_collect_info(info: List[str])</code></h4>
+<ul>
+<li>告知组件采集哪些类型的数据。</li>
+</ul>
+<h4 id="get-dictstr-any"><code>get() -&gt; Dict[str, Any]</code></h4>
+<ul>
+<li>获取当前采集结果，作为一个字典返回。</li>
+</ul>
+<hr />
+<p>如需整理更多类或模块，随时贴上来我继续按此格式编写。</p>
 
 
 
@@ -1302,6 +2125,44 @@
       
         <footer class="md-footer">
   
+    
+      
+      <nav class="md-footer__inner md-grid" aria-label="页脚" >
+        
+          
+          <a href="../biosocket_cn/" class="md-footer__link md-footer__link--prev" aria-label="上一页: 双向套接字通讯(biosocket)">
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+            </div>
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                上一页
+              </span>
+              <div class="md-ellipsis">
+                双向套接字通讯(biosocket)
+              </div>
+            </div>
+          </a>
+        
+        
+          
+          <a href="../robot_worker_cn/" class="md-footer__link md-footer__link--next" aria-label="下一页: 机器人式多进程单元(robot_worker)">
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                下一页
+              </span>
+              <div class="md-ellipsis">
+                机器人式多进程单元(robot_worker)
+              </div>
+            </div>
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11z"/></svg>
+            </div>
+          </a>
+        
+      </nav>
     
   
   <div class="md-footer-meta md-typeset">

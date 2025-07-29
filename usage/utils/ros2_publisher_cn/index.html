@@ -9,18 +9,22 @@
       
       
       
+        <link rel="prev" href="../ros_subscriber_cn/">
       
       
-      <link rel="icon" href="../assets/images/favicon.png">
+        <link rel="next" href="../ros2_subscriber_cn/">
+      
+      
+      <link rel="icon" href="../../../assets/images/favicon.png">
       <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.15">
     
     
       
-        <title>控制你的机器人! - Control Your Robot</title>
+        <title>ROS2发布(ros2_publisher) - Control Your Robot</title>
       
     
     
-      <link rel="stylesheet" href="../assets/stylesheets/main.342714a4.min.css">
+      <link rel="stylesheet" href="../../../assets/stylesheets/main.342714a4.min.css">
       
       
 
@@ -39,7 +43,7 @@
       
     
     
-    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    <script>__md_scope=new URL("../../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
 
@@ -58,7 +62,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#_1" class="md-skip">
+        <a href="#ros2publisher" class="md-skip">
           跳转至
         </a>
       
@@ -74,7 +78,7 @@
 
 <header class="md-header md-header--shadow md-header--lifted" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="页眉">
-    <a href=".." title="Control Your Robot" class="md-header__button md-logo" aria-label="Control Your Robot" data-md-component="logo">
+    <a href="../../.." title="Control Your Robot" class="md-header__button md-logo" aria-label="Control Your Robot" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
@@ -94,7 +98,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              控制你的机器人!
+              ROS2发布(ros2_publisher)
             
           </span>
         </div>
@@ -165,7 +169,7 @@
     
     
       <li class="md-tabs__item">
-        <a href=".." class="md-tabs__link">
+        <a href="../../.." class="md-tabs__link">
           
   
   
@@ -183,11 +187,13 @@
   
   
   
+    
+  
   
     
     
-      <li class="md-tabs__item">
-        <a href="../usage/start/" class="md-tabs__link">
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="../../start/" class="md-tabs__link">
           
   
   
@@ -209,7 +215,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="../demo/collect_demo_cn/" class="md-tabs__link">
+        <a href="../../../demo/collect_demo_cn/" class="md-tabs__link">
           
   
   
@@ -251,7 +257,7 @@
 
 <nav class="md-nav md-nav--primary md-nav--lifted" aria-label="导航栏" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href=".." title="Control Your Robot" class="md-nav__button md-logo" aria-label="Control Your Robot" data-md-component="logo">
+    <a href="../../.." title="Control Your Robot" class="md-nav__button md-logo" aria-label="Control Your Robot" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
@@ -296,7 +302,7 @@
         
           
           <div class="md-nav__link md-nav__container">
-            <a href=".." class="md-nav__link ">
+            <a href="../../.." class="md-nav__link ">
               
   
   
@@ -331,7 +337,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../getting_started/quickstart_cn/" class="md-nav__link">
+      <a href="../../../getting_started/quickstart_cn/" class="md-nav__link">
         
   
   
@@ -354,7 +360,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../getting_started/installation_cn/" class="md-nav__link">
+      <a href="../../../getting_started/installation_cn/" class="md-nav__link">
         
   
   
@@ -381,8 +387,10 @@
       
   
   
+    
   
   
+  
     
     
       
@@ -406,19 +414,20 @@
     
     
       
+        
+        
+      
       
     
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
       
         
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" checked>
         
           
-        
-        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_2" >
-        
-          
-          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="">
             
   
   
@@ -431,7 +440,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_2">
             <span class="md-nav__icon md-icon"></span>
             用法
@@ -445,7 +454,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../usage/start/" class="md-nav__link">
+      <a href="../../start/" class="md-nav__link">
         
   
   
@@ -521,7 +530,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../usage/controller/controller_cn/" class="md-nav__link">
+      <a href="../../controller/controller_cn/" class="md-nav__link">
         
   
   
@@ -544,7 +553,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../usage/controller/arm_controller_cn/" class="md-nav__link">
+      <a href="../../controller/arm_controller_cn/" class="md-nav__link">
         
   
   
@@ -567,7 +576,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../usage/controller/mobile_controller_cn/" class="md-nav__link">
+      <a href="../../controller/mobile_controller_cn/" class="md-nav__link">
         
   
   
@@ -590,7 +599,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../usage/controller/dexhand_controller_cn/" class="md-nav__link">
+      <a href="../../controller/dexhand_controller_cn/" class="md-nav__link">
         
   
   
@@ -674,7 +683,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../usage/sensor/sensor_cn/" class="md-nav__link">
+      <a href="../../sensor/sensor_cn/" class="md-nav__link">
         
   
   
@@ -697,7 +706,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../usage/sensor/vision_sensor_cn/" class="md-nav__link">
+      <a href="../../sensor/vision_sensor_cn/" class="md-nav__link">
         
   
   
@@ -720,7 +729,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../usage/sensor/touch_sensor_cn/" class="md-nav__link">
+      <a href="../../sensor/touch_sensor_cn/" class="md-nav__link">
         
   
   
@@ -743,7 +752,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../usage/sensor/teleoperation_sensor_cn/" class="md-nav__link">
+      <a href="../../sensor/teleoperation_sensor_cn/" class="md-nav__link">
         
   
   
@@ -821,7 +830,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../usage/policy/model_cn/" class="md-nav__link">
+      <a href="../../policy/model_cn/" class="md-nav__link">
         
   
   
@@ -899,7 +908,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../usage/scripts/client_server_cn/" class="md-nav__link">
+      <a href="../../scripts/client_server_cn/" class="md-nav__link">
         
   
   
@@ -981,7 +990,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../usage/my_robot/base_robot_cn/" class="md-nav__link">
+      <a href="../../my_robot/base_robot_cn/" class="md-nav__link">
         
   
   
@@ -1004,7 +1013,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../usage/my_robot/robot_cn/" class="md-nav__link">
+      <a href="../../my_robot/robot_cn/" class="md-nav__link">
         
   
   
@@ -1027,7 +1036,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../usage/my_robot/teleop_robot_cn/" class="md-nav__link">
+      <a href="../../my_robot/teleop_robot_cn/" class="md-nav__link">
         
   
   
@@ -1107,7 +1116,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../usage/example/collect_cn/" class="md-nav__link">
+      <a href="../../example/collect_cn/" class="md-nav__link">
         
   
   
@@ -1130,7 +1139,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../usage/example/deploy_cn/" class="md-nav__link">
+      <a href="../../example/deploy_cn/" class="md-nav__link">
         
   
   
@@ -1158,8 +1167,10 @@
                 
   
   
+    
   
   
+  
     
     
       
@@ -1188,13 +1199,11 @@
       
     
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
         
         
-          
-        
-        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_2_8" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_8" checked>
         
           
           <label class="md-nav__link" for="__nav_2_8" id="__nav_2_8_label" tabindex="0">
@@ -1210,7 +1219,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_8_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_8_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_2_8">
             <span class="md-nav__icon md-icon"></span>
             utils
@@ -1224,7 +1233,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../usage/utils/data_handler_cn/" class="md-nav__link">
+      <a href="../data_handler_cn/" class="md-nav__link">
         
   
   
@@ -1247,7 +1256,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../usage/utils/time_scheduler_cn/" class="md-nav__link">
+      <a href="../time_scheduler_cn/" class="md-nav__link">
         
   
   
@@ -1270,7 +1279,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../usage/utils/biosocket_cn/" class="md-nav__link">
+      <a href="../biosocket_cn/" class="md-nav__link">
         
   
   
@@ -1293,7 +1302,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../usage/utils/component_worker_cn/" class="md-nav__link">
+      <a href="../component_worker_cn/" class="md-nav__link">
         
   
   
@@ -1316,7 +1325,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../usage/utils/robot_worker_cn/" class="md-nav__link">
+      <a href="../robot_worker_cn/" class="md-nav__link">
         
   
   
@@ -1339,7 +1348,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../usage/utils/ros_publisher_cn/" class="md-nav__link">
+      <a href="../ros_publisher_cn/" class="md-nav__link">
         
   
   
@@ -1362,7 +1371,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../usage/utils/ros_subscriber_cn/" class="md-nav__link">
+      <a href="../ros_subscriber_cn/" class="md-nav__link">
         
   
   
@@ -1382,10 +1391,32 @@
                 
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="../usage/utils/ros2_publisher_cn/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    ROS2发布(ros2_publisher)
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   
@@ -1396,6 +1427,149 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="目录">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      目录
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      类介绍
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      类继承
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      类定义代码块
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      成员属性说明
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_5" class="md-nav__link">
+    <span class="md-ellipsis">
+      函数接口
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="函数接口">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#__init__" class="md-nav__link">
+    <span class="md-ellipsis">
+      __init__
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#publish_once" class="md-nav__link">
+    <span class="md-ellipsis">
+      publish_once
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#continuous_publish" class="md-nav__link">
+    <span class="md-ellipsis">
+      continuous_publish
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#update_msg" class="md-nav__link">
+    <span class="md-ellipsis">
+      update_msg
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#stop" class="md-nav__link">
+    <span class="md-ellipsis">
+      stop
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_6" class="md-nav__link">
+    <span class="md-ellipsis">
+      示例主程序
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_7" class="md-nav__link">
+    <span class="md-ellipsis">
+      实现自己的子类（可选）
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_8" class="md-nav__link">
+    <span class="md-ellipsis">
+      多线程注意事项
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -1408,7 +1582,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../usage/utils/ros2_subscriber_cn/" class="md-nav__link">
+      <a href="../ros2_subscriber_cn/" class="md-nav__link">
         
   
   
@@ -1493,7 +1667,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../demo/collect_demo_cn/" class="md-nav__link">
+      <a href="../../../demo/collect_demo_cn/" class="md-nav__link">
         
   
   
@@ -1543,56 +1717,91 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
+  <a href="#_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      类介绍
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#_2" class="md-nav__link">
     <span class="md-ellipsis">
-      🚀 机器人控制开发进展
+      类继承
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="🚀 机器人控制开发进展">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
+</li>
+      
+        <li class="md-nav__item">
   <a href="#_3" class="md-nav__link">
     <span class="md-ellipsis">
-      📅 更新记录
+      类定义代码块
     </span>
   </a>
   
 </li>
-        
-          <li class="md-nav__item">
+      
+        <li class="md-nav__item">
   <a href="#_4" class="md-nav__link">
     <span class="md-ellipsis">
-      🛣️ 正在路上
+      成员属性说明
     </span>
   </a>
   
 </li>
-        
-          <li class="md-nav__item">
+      
+        <li class="md-nav__item">
   <a href="#_5" class="md-nav__link">
     <span class="md-ellipsis">
-      🤖 设备支持情况
+      函数接口
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="🤖 设备支持情况">
+    <nav class="md-nav" aria-label="函数接口">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#_6" class="md-nav__link">
+  <a href="#__init__" class="md-nav__link">
     <span class="md-ellipsis">
-      🎛️ 控制器
+      __init__
     </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#_7" class="md-nav__link">
+  <a href="#publish_once" class="md-nav__link">
     <span class="md-ellipsis">
-      📡 传感器
+      publish_once
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#continuous_publish" class="md-nav__link">
+    <span class="md-ellipsis">
+      continuous_publish
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#update_msg" class="md-nav__link">
+    <span class="md-ellipsis">
+      update_msg
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#stop" class="md-nav__link">
+    <span class="md-ellipsis">
+      stop
     </span>
   </a>
   
@@ -1602,9 +1811,31 @@
     </nav>
   
 </li>
-        
-      </ul>
-    </nav>
+      
+        <li class="md-nav__item">
+  <a href="#_6" class="md-nav__link">
+    <span class="md-ellipsis">
+      示例主程序
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_7" class="md-nav__link">
+    <span class="md-ellipsis">
+      实现自己的子类（可选）
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_8" class="md-nav__link">
+    <span class="md-ellipsis">
+      多线程注意事项
+    </span>
+  </a>
   
 </li>
       
@@ -1624,179 +1855,225 @@
 
 
 
-<h1 id="_1">控制你的机器人!</h1>
-<p>该项目旨在与帮助各位进入具身智能领域后能快速上手一整套从控制机械臂开始, 到数据采集, 到最终VLA模型的训练与部署的流程.</p>
-<h2 id="_2">🚀 机器人控制开发进展</h2>
-<h3 id="_3">📅 更新记录</h3>
+<h1 id="ros2publisher">类定义文档：ROS2Publisher</h1>
+<hr />
+<h2 id="_1">类介绍</h2>
+<pre><code class="language-python">class ROS2Publisher(Node):
+</code></pre>
+<p>一个基于 ROS 2 的通用发布器类，支持一次性发布和周期性持续发布。适用于实时控制命令发送，如控制机器人运动等。</p>
+<hr />
+<h2 id="_2">类继承</h2>
 <table>
 <thead>
 <tr>
-<th>日期</th>
-<th>更新内容</th>
-<th>状态</th>
+<th>类名</th>
+<th>继承自</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td>2025.7.17</td>
-<td>🦾添加了中文文档</td>
-<td>✅ 已发布,待完善</td>
-</tr>
-<tr>
-<td>2025.7.14</td>
-<td>🦾添加了多进程的基础组件数据采集支持</td>
-<td>✅ 已发布</td>
-</tr>
-<tr>
-<td>2025.6.15</td>
-<td>🦾添加了完整的PIka遥操机械臂示例</td>
-<td>✅ 已发布</td>
-</tr>
-<tr>
-<td>2025.5.27</td>
-<td>🧪 添加完善测试样例, 便于程序调试与参考</td>
-<td>✅ 已发布</td>
-</tr>
-<tr>
-<td>2025.5.26</td>
-<td>💻 客户端-服务器通讯实现，远程推理与本地控制</td>
-<td>✅ 已发布</td>
-</tr>
-<tr>
-<td>2025.5.22</td>
-<td>🎭 通用Planner接入,通用IK逆解</td>
-<td>✅ 已发布</td>
-</tr>
-<tr>
-<td>2025.5.10</td>
-<td>🎭 Hybrid VLA，OpenVLA-oft正在路上</td>
-<td>❌测试中，待发布</td>
-</tr>
-<tr>
-<td>2025.4.10</td>
-<td>🎮 遥操设备接口封装，pika设备支持</td>
-<td>✅ 已发布</td>
-</tr>
-<tr>
-<td>2025.4.3</td>
-<td>🤖 agilex底盘控制与ROS接口封装</td>
-<td>✅ 已发布</td>
-</tr>
-<tr>
-<td>2025.3.25</td>
-<td>🦾 agliex机械臂支持</td>
-<td>✅ 已发布</td>
-</tr>
-<tr>
-<td>2025.3.10</td>
-<td>🏗️ RealMan机械臂支持</td>
-<td>✅ 已发布</td>
-</tr>
-<tr>
-<td>2025.2.15</td>
-<td>📊 通用数据采集流程完成</td>
-<td>✅ 已发布</td>
-</tr>
-<tr>
-<td>2024.12.1</td>
-<td>🧠 VLA模型训练框架规范化</td>
-<td>✅ 已发布</td>
+<td>ROS2Publisher</td>
+<td><code>rclpy.node.Node</code></td>
 </tr>
 </tbody>
 </table>
-<h3 id="_4">🛣️ 正在路上</h3>
+<hr />
+<h2 id="_3">类定义代码块</h2>
+<pre><code class="language-python">class ROS2Publisher(Node):
+    def __init__(self, topic_name, msg_type, continuous=True):
+        ...
+</code></pre>
+<hr />
+<h2 id="_4">成员属性说明</h2>
+<table>
+<thead>
+<tr>
+<th>属性名</th>
+<th>类型</th>
+<th>说明</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>topic_name</code></td>
+<td><code>str</code></td>
+<td>发布的 ROS2 topic 名称</td>
+</tr>
+<tr>
+<td><code>msg_type</code></td>
+<td><code>Type</code></td>
+<td>ROS2 消息类型，如 <code>Twist</code>、<code>PoseStamped</code> 等</td>
+</tr>
+<tr>
+<td><code>continuous</code></td>
+<td><code>bool</code></td>
+<td>是否持续发布消息（默认为 True）</td>
+</tr>
+<tr>
+<td><code>publisher</code></td>
+<td><code>Publisher</code></td>
+<td>ROS2 发布器对象</td>
+</tr>
+<tr>
+<td><code>pub_msg</code></td>
+<td><code>Any</code></td>
+<td>当前待发布的消息（会被周期性或一次性发布）</td>
+</tr>
+<tr>
+<td><code>shutdown_event</code></td>
+<td><code>threading.Event</code></td>
+<td>控制持续发布线程是否终止</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="_5">函数接口</h2>
+<h3 id="__init__"><code>__init__</code></h3>
+<pre><code class="language-python">def __init__(self, topic_name, msg_type, continuous=True):
+</code></pre>
+<p><strong>功能描述</strong>：初始化发布器节点，创建发布器对象。</p>
+<p><strong>参数</strong>：</p>
+<table>
+<thead>
+<tr>
+<th>参数名</th>
+<th>类型</th>
+<th>说明</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>topic_name</code></td>
+<td><code>str</code></td>
+<td>发布的 ROS2 话题名</td>
+</tr>
+<tr>
+<td><code>msg_type</code></td>
+<td><code>Type</code></td>
+<td>发布的消息类型（如 <code>Twist</code>、<code>PoseStamped</code>）</td>
+</tr>
+<tr>
+<td><code>continuous</code></td>
+<td><code>bool</code></td>
+<td>是否持续发布消息，默认为 True（每 10ms 发布一次）</td>
+</tr>
+</tbody>
+</table>
+<p><strong>返回值</strong>：无</p>
+<hr />
+<h3 id="publish_once"><code>publish_once</code></h3>
+<pre><code class="language-python">def publish_once(self):
+</code></pre>
+<p><strong>功能描述</strong>：立即将当前 <code>pub_msg</code> 发布一次。</p>
+<p><strong>参数</strong>：无<br />
+<strong>返回值</strong>：无</p>
+<hr />
+<h3 id="continuous_publish"><code>continuous_publish</code></h3>
+<pre><code class="language-python">def continuous_publish(self, interval_sec=0.01):
+</code></pre>
+<p><strong>功能描述</strong>：以固定时间间隔持续发布 <code>pub_msg</code>。</p>
+<p><strong>参数</strong>：</p>
+<table>
+<thead>
+<tr>
+<th>参数名</th>
+<th>类型</th>
+<th>说明</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>interval_sec</code></td>
+<td><code>float</code></td>
+<td>发布时间间隔，单位为秒，默认 0.01 秒</td>
+</tr>
+</tbody>
+</table>
+<p><strong>返回值</strong>：无</p>
+<hr />
+<h3 id="update_msg"><code>update_msg</code></h3>
+<pre><code class="language-python">def update_msg(self, msg):
+</code></pre>
+<p><strong>功能描述</strong>：更新待发布的消息内容。</p>
+<p><strong>参数</strong>：</p>
+<table>
+<thead>
+<tr>
+<th>参数名</th>
+<th>类型</th>
+<th>说明</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>msg</code></td>
+<td><code>Any</code></td>
+<td>ROS2 消息对象</td>
+</tr>
+</tbody>
+</table>
+<p><strong>返回值</strong>：无</p>
+<hr />
+<h3 id="stop"><code>stop</code></h3>
+<pre><code class="language-python">def stop(self):
+</code></pre>
+<p><strong>功能描述</strong>：发送停止信号终止持续发布线程，并输出日志。</p>
+<p><strong>参数</strong>：无<br />
+<strong>返回值</strong>：无</p>
+<hr />
+<h2 id="_6">示例主程序</h2>
+<pre><code class="language-python">def main():
+    rclpy.init()
+    pub_node = ROS2Publisher('/cmd_vel', Twist, continuous=True)
+
+    msg = Twist()
+    msg.linear.x = 0.02
+    pub_node.update_msg(msg)
+
+    pub_thread = Thread(target=pub_node.continuous_publish)
+    pub_thread.start()
+
+    try:
+        rclpy.spin_once(pub_node, timeout_sec=0.1)
+        time.sleep(1)
+
+        msg.linear.x = 0.0
+        pub_node.update_msg(msg)
+        time.sleep(1)
+
+        msg.linear.x = -0.02
+        pub_node.update_msg(msg)
+        time.sleep(1)
+
+        msg.linear.x = 0.0
+        pub_node.update_msg(msg)
+        time.sleep(1)
+
+    except KeyboardInterrupt:
+        pass
+    finally:
+        pub_node.stop()
+        pub_thread.join()
+        pub_node.destroy_node()
+        rclpy.shutdown()
+
+if __name__ == '__main__':
+    main()
+</code></pre>
+<hr />
+<h2 id="_7">实现自己的子类（可选）</h2>
+<p>若需要在发布前添加日志、消息校验等，可继承本类并重写 <code>update_msg()</code> 或 <code>publish_once()</code> 函数：</p>
+<pre><code class="language-python">class MyPublisher(ROS2Publisher):
+    def update_msg(self, msg):
+        print(&quot;准备发布:&quot;, msg)
+        super().update_msg(msg)
+</code></pre>
+<hr />
+<h2 id="_8">多线程注意事项</h2>
 <ul>
-<li>[✅] ⛓️‍💥 控制器与模型推理分开，支持远程部署与本地多脚本同步，解决环境兼容问题</li>
-<li>[✅] 🔢 curobo高效IK逆解器封装（需URDF支持）</li>
-<li>[ ] 🕹️ pika遥操控制任意机械臂示例</li>
-<li>[ ] 📦 更多控制器与传感器支持</li>
-<li>[ ] 🧩 更多机器人模型集成</li>
+<li>发布器默认启动线程持续发布，使用 <code>threading.Event</code> 控制退出。</li>
+<li>在主线程中仍可使用 <code>rclpy.spin_once()</code> 来处理 ROS2 回调（如日志或参数服务）。</li>
 </ul>
-<h3 id="_5">🤖 设备支持情况</h3>
-<h4 id="_6">🎛️ 控制器</h4>
-<p><strong>✅ 已实现</strong></p>
-<table>
-<thead>
-<tr>
-<th>机械臂</th>
-<th>底盘</th>
-<th>灵巧手</th>
-<th>其他</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Agilex Piper</td>
-<td>Agilex Tracer2.0</td>
-<td>🚧 开发中</td>
-<td>📦 待补充</td>
-</tr>
-<tr>
-<td>RealMan 65B</td>
-<td>📦 待补充</td>
-<td>📦 待补充</td>
-<td>📦 待补充</td>
-</tr>
-<tr>
-<td>daran aloha</td>
-<td>📦 待补充</td>
-<td>📦 待补充</td>
-<td>📦 待补充</td>
-</tr>
-</tbody>
-</table>
-<p><strong>🚧 准备支持</strong></p>
-<table>
-<thead>
-<tr>
-<th>机械臂</th>
-<th>底盘</th>
-<th>灵巧手</th>
-<th>其他</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>JAKA</td>
-<td>📦 待补充</td>
-<td>📦 待补充</td>
-<td>📦 待补充</td>
-</tr>
-<tr>
-<td>Franka</td>
-<td>📦 待补充</td>
-<td>📦 待补充</td>
-<td>📦 待补充</td>
-</tr>
-<tr>
-<td>UR5e</td>
-<td>📦 待补充</td>
-<td>📦 待补充</td>
-<td>📦 待补充</td>
-</tr>
-</tbody>
-</table>
-<h4 id="_7">📡 传感器</h4>
-<p><strong>✅ 已实现</strong></p>
-<table>
-<thead>
-<tr>
-<th>视觉传感器</th>
-<th>触觉传感器</th>
-<th>其他传感器</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>RealSense D435</td>
-<td>🚧 开发中</td>
-<td>📦 待补充</td>
-</tr>
-</tbody>
-</table>
-<p><strong>🚧 准备支持</strong>
-有需要新的传感器支持请提issue，也欢迎PR你的传感器配置！</p>
-<p>👉 <a href="usage/features.md">Usage Guide</a></p>
 
 
 
@@ -1828,6 +2105,44 @@
         <footer class="md-footer">
   
     
+      
+      <nav class="md-footer__inner md-grid" aria-label="页脚" >
+        
+          
+          <a href="../ros_subscriber_cn/" class="md-footer__link md-footer__link--prev" aria-label="上一页: ROS1订阅(ros_subscriber)">
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+            </div>
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                上一页
+              </span>
+              <div class="md-ellipsis">
+                ROS1订阅(ros_subscriber)
+              </div>
+            </div>
+          </a>
+        
+        
+          
+          <a href="../ros2_subscriber_cn/" class="md-footer__link md-footer__link--next" aria-label="下一页: ROS2订阅(ros2_subscriber)">
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                下一页
+              </span>
+              <div class="md-ellipsis">
+                ROS2订阅(ros2_subscriber)
+              </div>
+            </div>
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11z"/></svg>
+            </div>
+          </a>
+        
+      </nav>
+    
   
   <div class="md-footer-meta md-typeset">
     <div class="md-footer-meta__inner md-grid">
@@ -1853,10 +2168,10 @@
     
     
       
-      <script id="__config" type="application/json">{"base": "..", "features": ["navigation.instant", "navigation.tracking", "navigation.indexes", "navigation.tabs", "navigation.tabs.sticky", "navigation.expand", "navigation.footer", "navigation.top", "toc.follow", "announce.dismiss", "search.suggest", "search.highlight", "content.tabs", "content.code.copy", "content.action.edit"], "search": "../assets/javascripts/workers/search.d50fe291.min.js", "tags": null, "translations": {"clipboard.copied": "\u5df2\u590d\u5236", "clipboard.copy": "\u590d\u5236", "search.result.more.one": "\u5728\u8be5\u9875\u4e0a\u8fd8\u6709 1 \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.more.other": "\u5728\u8be5\u9875\u4e0a\u8fd8\u6709 # \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.none": "\u6ca1\u6709\u627e\u5230\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.one": "\u627e\u5230 1 \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.other": "# \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.placeholder": "\u952e\u5165\u4ee5\u5f00\u59cb\u641c\u7d22", "search.result.term.missing": "\u7f3a\u5c11", "select.version": "\u9009\u62e9\u5f53\u524d\u7248\u672c"}, "version": null}</script>
+      <script id="__config" type="application/json">{"base": "../../..", "features": ["navigation.instant", "navigation.tracking", "navigation.indexes", "navigation.tabs", "navigation.tabs.sticky", "navigation.expand", "navigation.footer", "navigation.top", "toc.follow", "announce.dismiss", "search.suggest", "search.highlight", "content.tabs", "content.code.copy", "content.action.edit"], "search": "../../../assets/javascripts/workers/search.d50fe291.min.js", "tags": null, "translations": {"clipboard.copied": "\u5df2\u590d\u5236", "clipboard.copy": "\u590d\u5236", "search.result.more.one": "\u5728\u8be5\u9875\u4e0a\u8fd8\u6709 1 \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.more.other": "\u5728\u8be5\u9875\u4e0a\u8fd8\u6709 # \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.none": "\u6ca1\u6709\u627e\u5230\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.one": "\u627e\u5230 1 \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.other": "# \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.placeholder": "\u952e\u5165\u4ee5\u5f00\u59cb\u641c\u7d22", "search.result.term.missing": "\u7f3a\u5c11", "select.version": "\u9009\u62e9\u5f53\u524d\u7248\u672c"}, "version": null}</script>
     
     
-      <script src="../assets/javascripts/bundle.56ea9cef.min.js"></script>
+      <script src="../../../assets/javascripts/bundle.56ea9cef.min.js"></script>
       
     
   </body>
